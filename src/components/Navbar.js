@@ -23,7 +23,7 @@ function Navbar() {
 
          <li><a href="#">Listings</a>   
                <ul>
-               {open && <li><a href="single-property-page-1.html">Single Property</a>  </li>}
+               <li><a href="single-property-page-1.html">Single Property</a>  </li>
               
               <li><a href="listings-list-with-map.html">Multiple Properties</a> </li>
                               

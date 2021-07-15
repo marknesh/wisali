@@ -32,7 +32,7 @@ function Register() {
             {/* Register */}
             <div className="utf-welcome-text-item">
               <h3>Create Your New Account!</h3>
-              <span>Do You Have an Account? <a href="login.html">Log In!</a></span> 
+              <span>Do You Have an Account? <a href="/login">Log In!</a></span> 
             </div>
             <form method="post" className="login">
               <div className="form-row form-row-wide margin-bottom-15">

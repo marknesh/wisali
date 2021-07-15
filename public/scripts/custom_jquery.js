@@ -1,9 +1,8 @@
-(function($) {
-    "use strict";
+
     $(document).ready(function() {
         $(function() {
             function mmenuInit() {
-              
+             
                 var wi = $(window).width();
                 if (wi <= '992') {
                     $('#footer').removeClass("sticky-footer");
@@ -941,7 +940,7 @@
             return (input - 0) == input && input.length > 0;
         }
     });
-})(this.jQuery);
+
 (function($) {
     $.fn.footerReveal = function(options) {
         $('#footer.sticky-footer').before('<div class="footer-shadow"></div>');

@@ -9,7 +9,7 @@ const useScript = url => {
 
     document.body.appendChild(script);
 
-  }, [url]);
+  });
 };
 
 export default useScript

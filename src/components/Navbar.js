@@ -1,37 +1,24 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import { Link } from 'react-router-dom'
+
 
 function Navbar() {
     return (
        
   <div>
-       <Helmet>
-                  
+           <Helmet>
+         
            
+  
 
 
-                  <script src="scripts/chosen.min.js"   ></script> 
-                  <script   src="scripts/magnific-popup.min.js"   ></script> 
-                  <script   src="scripts/owl.carousel.min.js"   ></script> 
-                  <script   src="scripts/rangeSlider.js"   ></script> 
-                  <script   src="scripts/sticky-kit.min.js"   ></script> 
-                  <script   src="scripts/slick.min.js"   ></script> 
-                  <script    src="scripts/mmenu.min.js"   ></script> 
-                  <script   src="scripts/tooltips.min.js"   ></script> 
-                  <script   src="scripts/masonry.min.js"   ></script> 
-                  <script   src="scripts/jquery.counterup.min.js"   ></script> 
-                  <script src="scripts/custom_jquery.js"  ></script>
-                
-                  
-         
-         
-         <script  src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en" ></script> 
-         <script   src="scripts/infobox.min.js"  ></script> 
-         <script   src="scripts/markerclusterer.js"   ></script> 
-         <script   src="scripts/maps.js"   ></script> 
+<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script> 
+<script src="/scripts/infobox.min.js"></script> 
+<script src="/scripts/markerclusterer.js"></script> 
+<script src="/scripts/maps.js"></script>
             </Helmet>
-    
+        
+          
    <div className="utf-compare-slidebar-area">
   <div className="utf-smt-trigger-item" />
   <div className="utf-smt-content">
@@ -52,7 +39,7 @@ function Navbar() {
           <img src="images/listing-02.jpg" alt="" /> </a> 
       </div>        
     </div>
-    <div className="utf-smt-buttons"><a href="compare-properties.html" className="button">Compare Property</a></div>
+    <div className="utf-smt-buttons"><a href="/compare-properties" className="button">Compare Property</a></div>
   </div>
 </div>
 
@@ -85,24 +72,24 @@ function Navbar() {
 
     <li><a href="#">Dashboard</a>
               <ul>
-                <li><a href="my-profile.html">My Profile</a></li>
-                <li><a href="my-properties.html">My Property</a></li>
-                <li><a href="add-new-property.html">Add New Property</a></li>
-                <li><a href="change-password.html">Change Password</a></li>
+                <li><a href="/my-profile">My Profile</a></li>
+                <li><a href="/my-properties">My Property</a></li>
+                <li><a href="/add-new-property">Add New Property</a></li>
+                <li><a href="/change-password">Change Password</a></li>
               </ul>
            </li>
             <li><a href="#">Pages</a>
               <ul>
                 <li><a href="#">Agents</a>
                   <ul>
-                    <li><a href="agents-list.html">Agents List</a></li>
-                    <li><a href="agents-profile.html">Agents Profile</a></li>
+                    <li><a href="/agents-list">Agents List</a></li>
+                    <li><a href="/agents-profile">Agents Profile</a></li>
                   </ul>
                 </li>
                 <li><a href="#">Agency</a>
                   <ul>
-                    <li><a href="agency-list.html">Agency List</a></li>
-                    <li><a href="agency-profile.html">Agency Profile</a></li>                      
+                    <li><a href="/agency-list">Agency List</a></li>
+                    <li><a href="/agency-profile">Agency Profile</a></li>                      
                   </ul>
                 </li>
 
@@ -114,9 +101,9 @@ function Navbar() {
 
               </ul>
             </li>
-            <li><a href="blog_detail_left_sidebar.html">Blog</a> </li>
+            <li><a href="/blog-detail">Blog</a> </li>
 
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>
         <div class="clearfix"></div>

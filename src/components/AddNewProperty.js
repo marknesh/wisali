@@ -17,7 +17,7 @@ const NINE=12345;
             {/* Breadcrumbs */}
             <nav id="breadcrumbs">
               <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Add New Property</li>
               </ul>
             </nav>

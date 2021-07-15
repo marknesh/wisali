@@ -7,8 +7,18 @@ function App() {
          <Helmet>
          
            
-      
-       */}
+         <script src="/scripts/jquery-3.3.1.min.js"></script> 
+<script src="/scripts/chosen.min.js"></script> 
+<script src="/scripts/magnific-popup.min.js"></script> 
+<script src="/scripts/owl.carousel.min.js"></script> 
+<script src="/scripts/rangeSlider.js"></script> 
+<script src="/scripts/sticky-kit.min.js"></script> 
+<script src="/scripts/slick.min.js"></script> 
+<script src="/scripts/mmenu.min.js"></script> 
+<script src="/scripts/tooltips.min.js"></script> 
+<script src="/scripts/masonry.min.js"></script> 
+<script src="/scripts/jquery.counterup.min.js"></script> 
+<script  src="/scripts/custom_jquery.js"></script> 
 
 
 

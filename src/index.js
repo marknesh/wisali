@@ -18,6 +18,14 @@ import Contact from './components/Contact';
 import AgentList from './components/AgentList';
 import AgencyProfile from './components/AgencyProfile';
 import AgentsProfile from './components/AgentsProfile';
+import About from './components/About';
+import Login from './components/Login';
+import Register from './components/Register';
+import PricingTables from './components/PricingTables';
+import ForgotPassword from './components/ForgotPassword';
+import AllCategories from './components/AllCategories';
+import Payment from './components/Payment';
+import BlogFullWidth from './components/BlogFullWidth';
 
 ReactDOM.render(
  
@@ -25,6 +33,14 @@ ReactDOM.render(
     <Router>
       <Navbar/>
     <Switch>
+    <Route exact path="/blog-full-width" component={BlogFullWidth} />
+    <Route exact path="/payment" component={Payment} />
+    <Route exact path="/all-categories" component={AllCategories} />
+    <Route exact path="/forgot-password" component={ForgotPassword} />
+    <Route exact path="/pricing-tables" component={PricingTables} />
+    <Route exact path="/register" component={Register} />
+    <Route exact path="/login" component={Login} />
+    <Route exact path="/about" component={About} />
     <Route exact path="/agency-list" component={AgentList} />
     <Route exact path="/agents-profile" component={AgentsProfile} />
     <Route exact path="/agency-profile" component={AgencyProfile} />

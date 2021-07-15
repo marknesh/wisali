@@ -14,7 +14,7 @@ function AgencyList() {
             {/* Breadcrumbs */}
             <nav id="breadcrumbs">
               <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Agency List</li>
               </ul>
             </nav>
@@ -28,12 +28,12 @@ function AgencyList() {
     <div className="row">
       <div className="col-md-6"> 
         {/* Agency */}
-        <div className="agent agents-profile agency"> <a href="agency-profile.html" className="utf-agent-avatar"> <img src="images/agency-01.jpg" alt="" /> </a>
+        <div className="agent agents-profile agency"> <a href="/agency-list" className="utf-agent-avatar"> <img src="images/agency-01.jpg" alt="" /> </a>
           <div className="utf-agent-content">
             <div className="utf-agent-name">
               <p className="text-alt">Agency</p>
               <div className="fp_pdate">1 Hour Ago</div>
-              <h4><a href="agency-profile.html">Modern House Real Estate</a></h4>
+              <h4><a href="/agency-list">Modern House Real Estate</a></h4>
               <ul className="utf-agent-contact-details">
                 <li><i className="icon-material-outline-business" />Rome</li>
               </ul> 
@@ -52,12 +52,12 @@ function AgencyList() {
       </div>	
       <div className="col-md-6"> 
         {/* Agency */}
-        <div className="agent agents-profile agency"> <a href="agency-profile.html" className="utf-agent-avatar"> <img src="images/agency-02.jpg" alt="" /> </a>
+        <div className="agent agents-profile agency"> <a href="/agency-list" className="utf-agent-avatar"> <img src="images/agency-02.jpg" alt="" /> </a>
           <div className="utf-agent-content">
             <div className="utf-agent-name">
               <p className="text-alt">Agency</p>	
               <div className="fp_pdate">7 Hours Ago</div>
-              <h4><a href="agency-profile.html">House Real Estate</a></h4>
+              <h4><a href="/agency-list">House Real Estate</a></h4>
               <ul className="utf-agent-contact-details">
                 <li><i className="icon-material-outline-business" />Belize</li>
               </ul> 
@@ -76,12 +76,12 @@ function AgencyList() {
       </div>
       <div className="col-md-6"> 
         {/* Agency */}
-        <div className="agent agents-profile agency"> <a href="agency-profile.html" className="utf-agent-avatar"> <img src="images/agency-03.jpg" alt="" /> </a>
+        <div className="agent agents-profile agency"> <a href="/agency-list" className="utf-agent-avatar"> <img src="images/agency-03.jpg" alt="" /> </a>
           <div className="utf-agent-content">
             <div className="utf-agent-name">
               <p className="text-alt">Agency</p>
               <div className="fp_pdate">4 Hours Ago</div>
-              <h4><a href="agency-profile.html">High-Rise Real Estate</a></h4>
+              <h4><a href="/agency-list">High-Rise Real Estate</a></h4>
               <ul className="utf-agent-contact-details">
                 <li><i className="icon-material-outline-business" />Bologna</li>
               </ul> 
@@ -100,12 +100,12 @@ function AgencyList() {
       </div>
       <div className="col-md-6"> 
         {/* Agency */}
-        <div className="agent agents-profile agency"> <a href="agency-profile.html" className="utf-agent-avatar"> <img src="images/agency-04.jpg" alt="" /> </a>
+        <div className="agent agents-profile agency"> <a href="/agency-list" className="utf-agent-avatar"> <img src="images/agency-04.jpg" alt="" /> </a>
           <div className="utf-agent-content">
             <div className="utf-agent-name">
               <p className="text-alt">Agency</p>
               <div className="fp_pdate">2 Hours Ago</div>
-              <h4><a href="agency-profile.html">Country House Real Estate</a></h4>
+              <h4><a href="/agency-list">Country House Real Estate</a></h4>
               <ul className="utf-agent-contact-details">
                 <li><i className="icon-material-outline-business" />Lima</li>
               </ul> 

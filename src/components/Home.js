@@ -123,7 +123,7 @@ function Home() {
             {/* Listing Item */}
             <div className="utf-carousel-item-area">
               <div className="utf-listing-item compact"> 
-                <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                   <div className="utf-listing-badges-item"> <span className="for-sale">For Sale</span> </div>
                   <div className="utf-listing-img-content-item"> 
                     <span className="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>
@@ -142,7 +142,7 @@ function Home() {
             {/* Listing Item */}
             <div className="utf-carousel-item-area">
               <div className="utf-listing-item compact"> 
-                <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                   <div className="utf-listing-badges-item"> <span className="for-sale">For Sale</span> </div>
                   <div className="utf-listing-img-content-item"> 
                     <span className="utf-listing-compact-title-item">Renovated Luxury Apartment <i>18,000/mo</i></span>
@@ -161,7 +161,7 @@ function Home() {
             {/* Listing Item */}
             <div className="utf-carousel-item-area">
               <div className="utf-listing-item compact"> 
-                <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                   <div className="utf-listing-badges-item"> <span className="for-rent">For Rent</span></div>
                   <div className="utf-listing-img-content-item"> 
                     <span className="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>
@@ -180,7 +180,7 @@ function Home() {
             {/* Listing Item */}
             <div className="utf-carousel-item-area">
               <div className="utf-listing-item compact"> 
-                <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                   <div className="utf-listing-badges-item"> <span className="for-sale">For Sale</span> </div>
                   <div className="utf-listing-img-content-item"> 
                     <span className="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>
@@ -199,7 +199,7 @@ function Home() {
             {/* Listing Item */}
             <div className="utf-carousel-item-area">
               <div className="utf-listing-item compact"> 
-                <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                   <div className="utf-listing-badges-item"> <span className="for-sale">For Sale</span> </div>
                   <div className="utf-listing-img-content-item"> 
                     <span className="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>
@@ -234,7 +234,7 @@ function Home() {
             <div className="carousel"> 
               <div className="utf-carousel-item-area">
                 <div className="utf-listing-item"> 
-                  <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                  <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> 
                     </div>				  
                     <div className="utf-listing-img-content-item"> 					
@@ -250,7 +250,7 @@ function Home() {
                   <div className="utf-listing-content">				
                     <div className="utf-listing-title">
                       <span className="utf-listing-price">$22,000/mo</span> 						  	
-                      <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                      <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                       <span className="utf-listing-address"><i className="icon-material-outline-location-on" /> 2021 San Pedro, Los Angeles 90015</span>
                     </div>				
                     <ul className="utf-listing-features">
@@ -259,12 +259,12 @@ function Home() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div> 					
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div> 					
                   </div>
                 </div>
               </div>
               <div className="utf-carousel-item-area">
-                <div className="utf-listing-item"> <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <div className="utf-listing-item"> <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> 
                     </div>
                     <div className="utf-listing-img-content-item"> 
@@ -275,7 +275,7 @@ function Home() {
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">
                       <span className="utf-listing-price">$20,000/mo</span>	
-                      <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                      <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                       <span className="utf-listing-address"><i className="icon-material-outline-location-on" /> 2021 San Pedro, Los Angeles 90015</span> 
                     </div>				
                     <ul className="utf-listing-features">
@@ -284,12 +284,12 @@ function Home() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>					
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>					
                   </div>
                 </div>
               </div>
               <div className="utf-carousel-item-area">
-                <div className="utf-listing-item"> <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <div className="utf-listing-item"> <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> 
                     </div>
                     <div className="utf-listing-img-content-item"> 
@@ -300,7 +300,7 @@ function Home() {
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">
                       <span className="utf-listing-price">$18,000/mo</span>
-                      <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                      <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                       <span className="utf-listing-address"><i className="icon-material-outline-location-on" /> 2021 San Pedro, Los Angeles 90015</span> 
                     </div>				
                     <ul className="utf-listing-features">
@@ -309,12 +309,12 @@ function Home() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>				
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>				
                   </div>              
                 </div>
               </div>
               <div className="utf-carousel-item-area">
-                <div className="utf-listing-item"> <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <div className="utf-listing-item"> <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> 
                     </div>
                     <div className="utf-listing-img-content-item"> 
@@ -329,7 +329,7 @@ function Home() {
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">
                       <span className="utf-listing-price">$16,000/mo</span>
-                      <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                      <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                       <span className="utf-listing-address"><i className="icon-material-outline-location-on" /> 2021 San Pedro, Los Angeles 90015</span> 
                     </div>
                     <ul className="utf-listing-features">
@@ -338,12 +338,12 @@ function Home() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>					
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>					
                   </div>              
                 </div>
               </div>
               <div className="utf-carousel-item-area">
-                <div className="utf-listing-item"> <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <div className="utf-listing-item"> <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> 
                     </div>
                     <div className="utf-listing-img-content-item"> 
@@ -354,7 +354,7 @@ function Home() {
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">
                       <span className="utf-listing-price">$14,000/mo</span>
-                      <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                      <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                       <span className="utf-listing-address"><i className="icon-material-outline-location-on" /> 2021 San Pedro, Los Angeles 90015</span> 
                     </div>				
                     <ul className="utf-listing-features">
@@ -363,7 +363,7 @@ function Home() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div> 					
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div> 					
                   </div>              
                 </div>
               </div>          
@@ -387,7 +387,7 @@ function Home() {
             <div className="carousel"> 
               <div className="utf-carousel-item-area">
                 <div className="utf-listing-item"> 
-                  <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                  <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> 
                     </div>				  
                     <div className="utf-listing-img-content-item"> 					
@@ -403,7 +403,7 @@ function Home() {
                   <div className="utf-listing-content">				
                     <div className="utf-listing-title">
                       <span className="utf-listing-price">$22,000/mo</span> 						  	
-                      <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                      <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                       <span className="utf-listing-address"><i className="icon-material-outline-location-on" /> 2021 San Pedro, Los Angeles 90015</span>
                     </div>				
                     <ul className="utf-listing-features">
@@ -412,12 +412,12 @@ function Home() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div> 					
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div> 					
                   </div>
                 </div>
               </div>
               <div className="utf-carousel-item-area">
-                <div className="utf-listing-item"> <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <div className="utf-listing-item"> <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> 
                     </div>
                     <div className="utf-listing-img-content-item"> 
@@ -428,7 +428,7 @@ function Home() {
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">
                       <span className="utf-listing-price">$20,000/mo</span>	
-                      <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                      <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                       <span className="utf-listing-address"><i className="icon-material-outline-location-on" /> 2021 San Pedro, Los Angeles 90015</span> 
                     </div>				
                     <ul className="utf-listing-features">
@@ -437,12 +437,12 @@ function Home() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>					
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>					
                   </div>
                 </div>
               </div>
               <div className="utf-carousel-item-area">
-                <div className="utf-listing-item"> <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <div className="utf-listing-item"> <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> 
                     </div>
                     <div className="utf-listing-img-content-item"> 
@@ -453,7 +453,7 @@ function Home() {
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">
                       <span className="utf-listing-price">$18,000/mo</span>
-                      <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                      <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                       <span className="utf-listing-address"><i className="icon-material-outline-location-on" /> 2021 San Pedro, Los Angeles 90015</span> 
                     </div>				
                     <ul className="utf-listing-features">
@@ -462,12 +462,12 @@ function Home() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>				
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>				
                   </div>              
                 </div>
               </div>
               <div className="utf-carousel-item-area">
-                <div className="utf-listing-item"> <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <div className="utf-listing-item"> <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> 
                     </div>
                     <div className="utf-listing-img-content-item"> 
@@ -482,7 +482,7 @@ function Home() {
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">
                       <span className="utf-listing-price">$16,000/mo</span>
-                      <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                      <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                       <span className="utf-listing-address"><i className="icon-material-outline-location-on" /> 2021 San Pedro, Los Angeles 90015</span> 
                     </div>
                     <ul className="utf-listing-features">
@@ -491,12 +491,12 @@ function Home() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>					
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>					
                   </div>              
                 </div>
               </div>
               <div className="utf-carousel-item-area">
-                <div className="utf-listing-item"> <a href="single-property-page-1.html" className="utf-smt-listing-img-container">
+                <div className="utf-listing-item"> <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> 
                     </div>
                     <div className="utf-listing-img-content-item"> 
@@ -507,7 +507,7 @@ function Home() {
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">
                       <span className="utf-listing-price">$14,000/mo</span>
-                      <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                      <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                       <span className="utf-listing-address"><i className="icon-material-outline-location-on" /> 2021 San Pedro, Los Angeles 90015</span> 
                     </div>				
                     <ul className="utf-listing-features">
@@ -516,7 +516,7 @@ function Home() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div> 					
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div> 					
                   </div>              
                 </div>
               </div>          
@@ -539,7 +539,7 @@ function Home() {
             </div>  
           </div>
           <div className="col-md-4 col-sm-6"> 
-            <a href="listings-list-with-map.html" className="img-box">
+            <a href="/listings-list-with-map" className="img-box">
               <div className="utf-listing-badges-item"> </div>
               <img src="images/popular-location-01.jpg" alt="" />
               <div className="utf-cat-img-box-content visible">
@@ -549,7 +549,7 @@ function Home() {
             </a> 
           </div>
           <div className="col-md-3 col-sm-6"> 
-            <a href="listings-list-with-map.html" className="img-box">
+            <a href="/listings-list-with-map" className="img-box">
               <img src="images/popular-location-02.jpg" alt="" /> 
               <div className="utf-cat-img-box-content visible">
                 <h4>Australia</h4>
@@ -558,7 +558,7 @@ function Home() {
             </a> 
           </div>
           <div className="col-md-5 col-sm-6"> 
-            <a href="listings-list-with-map.html" className="img-box">
+            <a href="/listings-list-with-map" className="img-box">
               <img src="images/popular-location-03.jpg" alt="" />
               <div className="utf-cat-img-box-content visible">
                 <h4>Bangladesh</h4>
@@ -567,7 +567,7 @@ function Home() {
             </a> 
           </div>
           <div className="col-md-5 col-sm-6"> 
-            <a href="listings-list-with-map.html" className="img-box">
+            <a href="/listings-list-with-map" className="img-box">
               <img src="images/popular-location-04.jpg" alt="" /> 
               <div className="utf-cat-img-box-content visible">
                 <h4>Miami</h4>
@@ -576,7 +576,7 @@ function Home() {
             </a> 
           </div>
           <div className="col-md-4 col-sm-6"> 
-            <a href="listings-list-with-map.html" className="img-box"> 
+            <a href="/listings-list-with-map" className="img-box"> 
               <img src="images/popular-location-05.jpg" alt="" /> 
               <div className="utf-cat-img-box-content visible">
                 <h4>Belize</h4>
@@ -585,7 +585,7 @@ function Home() {
             </a> 
           </div>
           <div className="col-md-3 col-sm-6"> 
-            <a href="listings-list-with-map.html" className="img-box">
+            <a href="/listings-list-with-map" className="img-box">
               <img src="images/popular-location-06.jpg" alt="" />
               <div className="utf-cat-img-box-content visible">
                 <h4>Cambodia</h4>
@@ -595,7 +595,7 @@ function Home() {
           </div>		  
         </div>
         <div className="utf-centered-button margin-top-10">
-          <a href="all-categories.html" className="button">View All Categories</a> 
+          <a href="/all-categories" className="button">View All Categories</a> 
         </div>
       </div>
       {/* Container / End */}  
@@ -628,7 +628,7 @@ function Home() {
                       <li>Not Featured</li>
                       <li>Limited Support </li> 
                     </ul>
-                    <a className="button border" href="register.html">Register Now</a> 
+                    <a className="button border" href="/register">Register Now</a> 
                   </div>
                 </div>
               </div>
@@ -647,7 +647,7 @@ function Home() {
                       <li>Featured In Search Results</li>
                       <li>24/7 Support</li>
                     </ul>
-                    <a className="button border" href="payment.html">Purchase Now</a> 
+                    <a className="button border" href="/payment">Purchase Now</a> 
                   </div>
                 </div>
               </div>
@@ -667,7 +667,7 @@ function Home() {
                       <li>Featured In Search Results</li>
                       <li>24/7 Support</li>
                     </ul>
-                    <a className="button border" href="payment.html">Purchase Now</a> 
+                    <a className="button border" href="/payment">Purchase Now</a> 
                   </div>
                 </div>
               </div>	  
@@ -700,7 +700,7 @@ function Home() {
               </div>	
               <h4>Our Support Agent</h4>
               <p>Our support agent will work with you to meet your lending needs.</p>
-              <a href="contact.html" className="button margin-top-10">Contact Us</a> 
+              <a href="/contact" className="button margin-top-10">Contact Us</a> 
             </div>
           </div>
           <div className="col-md-4 col-sm-4 col-xs-12">
@@ -710,7 +710,7 @@ function Home() {
               </div> 
               <h4>Read Latest Blog Post</h4>
               <p>Visit our Blog page and know more about news and career tips</p>
-              <a href="blog_detail_left_sidebar.html" className="button margin-top-10">Read Blog Post</a> 
+              <a href="/blog-detail" className="button margin-top-10">Read Blog Post</a> 
             </div>
           </div>
         </div>
@@ -732,10 +732,10 @@ function Home() {
           <div className="utf-agents-container-area"> 
             <div className="grid-item col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div className="agent">
-                <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-01.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-01.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                 <div className="utf-agent-content">
                   <div className="utf-agent-name">
-                    <h4><a href="agents-profile.html">Marcus Millard</a></h4>
+                    <h4><a href="/agents-profile">Marcus Millard</a></h4>
                     <span>Agent In Belize</span> 
                   </div>              
                 </div>
@@ -743,10 +743,10 @@ function Home() {
             </div>
             <div className="grid-item col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div className="agent">
-                <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-02.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-02.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                 <div className="utf-agent-content">
                   <div className="utf-agent-name">
-                    <h4><a href="agents-profile.html">Myron Gains</a></h4>
+                    <h4><a href="/agents-profile">Myron Gains</a></h4>
                     <span>Agent In Rome</span> 
                   </div>              
                 </div>
@@ -754,10 +754,10 @@ function Home() {
             </div>
             <div className="grid-item col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div className="agent">
-                <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-03.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-03.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                 <div className="utf-agent-content">
                   <div className="utf-agent-name">
-                    <h4><a href="agents-profile.html">Julez Minow</a></h4>
+                    <h4><a href="/agents-profile">Julez Minow</a></h4>
                     <span>Agent In Bologna</span> 
                   </div>              
                 </div>
@@ -765,10 +765,10 @@ function Home() {
             </div>
             <div className="grid-item col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div className="agent">
-                <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-04.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-04.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                 <div className="utf-agent-content">
                   <div className="utf-agent-name">
-                    <h4><a href="agents-profile.html">Nathalie Njuguma</a></h4>
+                    <h4><a href="/agents-profile">Nathalie Njuguma</a></h4>
                     <span>Agent In Belize</span> 
                   </div>              
                 </div>
@@ -776,7 +776,7 @@ function Home() {
             </div> 
           </div>
           <div className="utf-centered-button margin-top-10">
-            <a href="agents-list.html" className="button">View All Agent</a> 
+            <a href="/agents-list" className="button">View All Agent</a> 
           </div>
           {/* Agents Container / End */} 
         </div>

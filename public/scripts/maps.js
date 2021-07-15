@@ -21,18 +21,18 @@
             return ('<a href="' + locationURL + '" class="utf-smt-listing-img-container"><div class="infoBox-close"><i class="fa fa-times"></i></div><div class="utf-listing-img-content-item"><span class="utf-listing-price">' + locationPrice + '</span></div><img src="' + locationImg + '" alt=""></a><div class="utf-listing-content"><div class="utf-listing-title"><h4><a href="#">' + locationTitle + '</a></h4><p>' + locationAddress + '</p></div></div>')
         }
         var locations = [
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-01.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 37.788181, -122.461270, 1, markerIcon],
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-02.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 37.750812, -122.471934, 2, markerIcon],
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-03.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 37.735609, -122.458201, 3, markerIcon],
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-04.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 40.7427837, -73.11445617675781, 4, markerIcon],
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-05.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 40.70437865245596, -73.98674011230469, 5, markerIcon],
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-06.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 40.94401669296697, -74.16938781738281, 6, markerIcon],
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-01.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 41.79424986338271, -87.7093505859375, 7, markerIcon],
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-02.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 41.76967281691741, -87.9510498046875, 8, markerIcon],
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-03.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 36.13610021320376, -115.1312255859375, 9, markerIcon],
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-04.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 36.10637081203522, -115.22872924804688, 10, markerIcon],
-            [locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-05.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 32.86020942314693, -97.09442138671875, 11, markerIcon],
-			[locationData('single-property-page-1.html', '$20,000/mo', '$850 / sq ft', 'images/listing-05.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 32.684695132205626, -96.89666748046875, 12, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-01.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 37.788181, -122.461270, 1, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-02.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 37.750812, -122.471934, 2, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-03.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 37.735609, -122.458201, 3, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-04.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 40.7427837, -73.11445617675781, 4, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-05.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 40.70437865245596, -73.98674011230469, 5, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-06.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 40.94401669296697, -74.16938781738281, 6, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-01.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 41.79424986338271, -87.7093505859375, 7, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-02.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 41.76967281691741, -87.9510498046875, 8, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-03.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 36.13610021320376, -115.1312255859375, 9, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-04.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 36.10637081203522, -115.22872924804688, 10, markerIcon],
+            [locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-05.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 32.86020942314693, -97.09442138671875, 11, markerIcon],
+			[locationData('/single-property-page-1', '$20,000/mo', '$850 / sq ft', 'images/listing-05.jpg', 'Renovated Apartment', "2021 San Pedro, Los Angeles 90015"), 32.684695132205626, -96.89666748046875, 12, markerIcon],
         ];
         var mapZoomAttr = $('#map').attr('data-map-zoom');
         var mapScrollAttr = $('#map').attr('data-map-scroll');

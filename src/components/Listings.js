@@ -162,7 +162,7 @@ function Listings() {
         
         
         <div class="utf-listings-container-area list-layout"> 
-          <div class="utf-listing-item"> <a href="single-property-page-1.html" class="utf-smt-listing-img-container">
+          <div class="utf-listing-item"> <a href="/single-property-page-1" class="utf-smt-listing-img-container">
             <div class="utf-listing-badges-item"><span class="for-sale">For Sale</span></div>
             <div class="utf-listing-img-content-item">
 				<img class="utf-user-picture" src="images/user_1.jpg" alt="user_1" />
@@ -178,7 +178,7 @@ function Listings() {
             <div class="utf-listing-content">
               <div class="utf-listing-title">
 			    <span class="utf-listing-price">$22,000/mo</span>
-                <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                 <span class="utf-listing-address"><i class="icon-material-outline-location-on"></i> 2021 San Pedro, Los Angeles 90015</span>
 			  </div>
 			  <ul class="utf-listing-features">
@@ -187,13 +187,13 @@ function Listings() {
 				<li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				<li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
 			  </ul>
-			  <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i>Magdalene Orange</a> <span>11 Days Ago</span></div>              
+			  <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i>Magdalene Orange</a> <span>11 Days Ago</span></div>              
             </div>
           </div>
           
           
           
-          <div class="utf-listing-item"> <a href="single-property-page-1.html" class="utf-smt-listing-img-container">
+          <div class="utf-listing-item"> <a href="/single-property-page-1" class="utf-smt-listing-img-container">
             <div class="utf-listing-badges-item"> <span class="for-rent">For Rent</span> </div>
             <div class="utf-listing-img-content-item">
 				<img class="utf-user-picture" src="images/user_1.jpg" alt="user_1" />
@@ -204,7 +204,7 @@ function Listings() {
             <div class="utf-listing-content">
               <div class="utf-listing-title">
 			    <span class="utf-listing-price">$20,000/mo</span>
-                <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                 <span class="utf-listing-address"><i class="icon-material-outline-location-on"></i> 2021 San Pedro, Los Angeles 90015</span>
 			  </div>
               <ul class="utf-listing-features">
@@ -213,13 +213,13 @@ function Listings() {
 				<li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				<li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
 			  </ul>
-			  <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i>Mel Gibson</a> <span>11 Days Ago</span></div>              
+			  <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i>Mel Gibson</a> <span>11 Days Ago</span></div>              
             </div>
           </div>
           
           
           
-          <div class="utf-listing-item"> <a href="single-property-page-1.html" class="utf-smt-listing-img-container">
+          <div class="utf-listing-item"> <a href="/single-property-page-1" class="utf-smt-listing-img-container">
             <div class="utf-listing-badges-item"> <span class="for-rent">For Rent</span> </div>
             <div class="utf-listing-img-content-item">
 				<img class="utf-user-picture" src="images/user_1.jpg" alt="user_1" />
@@ -230,7 +230,7 @@ function Listings() {
             <div class="utf-listing-content">
               <div class="utf-listing-title">
 			    <span class="utf-listing-price">$18,000/mo</span>
-                <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                 <span class="utf-listing-address"><i class="icon-material-outline-location-on"></i> 2021 San Pedro, Los Angeles 90015</span>
 			  </div>
               <ul class="utf-listing-features">
@@ -239,13 +239,13 @@ function Listings() {
 				<li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				<li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
 			  </ul>
-			  <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i> Julius Ceasar</a> <span>16 Days Ago</span></div>
+			  <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i> Julius Ceasar</a> <span>16 Days Ago</span></div>
             </div>
           </div>
           
           
           
-          <div class="utf-listing-item"> <a href="single-property-page-1.html" class="utf-smt-listing-img-container">
+          <div class="utf-listing-item"> <a href="/single-property-page-1" class="utf-smt-listing-img-container">
             <div class="utf-listing-badges-item"> <span class="for-sale">For Sale</span> </div>
             <div class="utf-listing-img-content-item">
 				<img class="utf-user-picture" src="images/user_1.jpg" alt="user_1" />
@@ -260,7 +260,7 @@ function Listings() {
             <div class="utf-listing-content">
               <div class="utf-listing-title">
 			    <span class="utf-listing-price">$16,000/mo</span>
-                <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                 <span class="utf-listing-address"><i class="icon-material-outline-location-on"></i> 2021 San Pedro, Los Angeles 90015</span>
 			  </div>
               <ul class="utf-listing-features">
@@ -269,13 +269,13 @@ function Listings() {
 				<li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				<li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
 			  </ul>
-			  <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i> Bildad Kagia</a> <span>21 Days Ago</span></div>
+			  <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i> Bildad Kagia</a> <span>21 Days Ago</span></div>
             </div>
           </div>
           
           
           
-          <div class="utf-listing-item"> <a href="single-property-page-1.html" class="utf-smt-listing-img-container">
+          <div class="utf-listing-item"> <a href="/single-property-page-1" class="utf-smt-listing-img-container">
             <div class="utf-listing-badges-item"> <span class="for-sale">For Sale</span> </div>
             <div class="utf-listing-img-content-item">
 				<img class="utf-user-picture" src="images/user_1.jpg" alt="user_1" />
@@ -286,7 +286,7 @@ function Listings() {
             <div class="utf-listing-content">
               <div class="utf-listing-title">
 			    <span class="utf-listing-price">$18,000/mo</span>
-                <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                 <span class="utf-listing-address"><i class="icon-material-outline-location-on"></i> 2021 San Pedro, Los Angeles 90015</span>
 			  </div>
               <ul class="utf-listing-features">
@@ -295,13 +295,13 @@ function Listings() {
 				<li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				<li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
 			  </ul>
-			  <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i> Wax Charlamagne</a> <span>19 Days Ago</span></div>
+			  <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i> Wax Charlamagne</a> <span>19 Days Ago</span></div>
             </div>
           </div>
           
           
           
-          <div class="utf-listing-item"> <a href="single-property-page-1.html" class="utf-smt-listing-img-container">
+          <div class="utf-listing-item"> <a href="/single-property-page-1" class="utf-smt-listing-img-container">
             <div class="utf-listing-badges-item"> <span class="for-rent">For Rent</span> </div>
             <div class="utf-listing-img-content-item">
 				<img class="utf-user-picture" src="images/user_1.jpg" alt="user_1" />
@@ -312,7 +312,7 @@ function Listings() {
             <div class="utf-listing-content">
               <div class="utf-listing-title">
 			    <span class="utf-listing-price">$15,000/mo</span>
-                <h4><a href="single-property-page-1.html">Old Town Manchester</a></h4>
+                <h4><a href="/single-property-page-1">Old Town Manchester</a></h4>
                 <span class="utf-listing-address"><i class="icon-material-outline-location-on"></i> 2021 San Pedro, Los Angeles 90015</span>
 			  </div>
               <ul class="utf-listing-features">
@@ -321,12 +321,12 @@ function Listings() {
 				<li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				<li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
 			  </ul>
-			  <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i>Johanson Mildred</a> <span>13 Days Ago</span></div>
+			  <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i>Johanson Mildred</a> <span>13 Days Ago</span></div>
             </div>
           </div>
 		  
 		  
-          <div class="utf-listing-item"> <a href="single-property-page-1.html" class="utf-smt-listing-img-container">
+          <div class="utf-listing-item"> <a href="/single-property-page-1" class="utf-smt-listing-img-container">
             <div class="utf-listing-badges-item"> <span class="for-sale">For Sale</span> </div>
             <div class="utf-listing-img-content-item">
 				<img class="utf-user-picture" src="images/user_1.jpg" alt="user_1" />
@@ -337,7 +337,7 @@ function Listings() {
             <div class="utf-listing-content">
               <div class="utf-listing-title">
 			    <span class="utf-listing-price">$18,000/mo</span>
-                <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                 <span class="utf-listing-address"><i class="icon-material-outline-location-on"></i> 2021 San Pedro, Los Angeles 90015</span>
 			  </div>
               <ul class="utf-listing-features">
@@ -346,13 +346,13 @@ function Listings() {
 				<li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				<li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
 			  </ul>
-			  <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i>Melody June</a> <span>17 Days Ago</span></div>
+			  <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i>Melody June</a> <span>17 Days Ago</span></div>
             </div>
           </div>
           
           
           
-          <div class="utf-listing-item"> <a href="single-property-page-1.html" class="utf-smt-listing-img-container">
+          <div class="utf-listing-item"> <a href="/single-property-page-1" class="utf-smt-listing-img-container">
             <div class="utf-listing-badges-item"> <span class="for-rent">For Rent</span> </div>
             <div class="utf-listing-img-content-item">
 				<img class="utf-user-picture" src="images/user_1.jpg" alt="user_1" />
@@ -363,7 +363,7 @@ function Listings() {
             <div class="utf-listing-content">
               <div class="utf-listing-title">
 			    <span class="utf-listing-price">$15,000/mo</span>
-                <h4><a href="single-property-page-1.html">Old Town Manchester</a></h4>
+                <h4><a href="/single-property-page-1">Old Town Manchester</a></h4>
                 <span class="utf-listing-address"><i class="icon-material-outline-location-on"></i> 2021 San Pedro, Los Angeles 90015</span>
 			  </div>
               <ul class="utf-listing-features">
@@ -372,7 +372,7 @@ function Listings() {
 				<li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				<li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
 			  </ul>
-			  <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i> John Williams</a> <span>10 Days Ago</span></div>
+			  <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i> John Williams</a> <span>10 Days Ago</span></div>
             </div>
           </div>
         </div>
@@ -590,9 +590,9 @@ function Listings() {
                 
                 <li>
                   <div class="widget-content">
-                    <div class="widget-thumb"> <a href="blog-full-width-single-post.html"><img src="images/blog-widget-03.jpg" alt=""/></a> </div>
+                    <div class="widget-thumb"> <a href="/blog-full-width"><img src="images/blog-widget-03.jpg" alt=""/></a> </div>
                     <div class="widget-text">
-                      <h5><a href="blog-full-width-single-post.html">How to Woo a Recruiter and Land Your Dream.</a></h5>
+                      <h5><a href="/blog-full-width">How to Woo a Recruiter and Land Your Dream.</a></h5>
                       <span>$22,000/mo</span> 
 					</div>
                     <div class="clearfix"></div>
@@ -602,9 +602,9 @@ function Listings() {
                 
                 <li>
                   <div class="widget-content">
-                    <div class="widget-thumb"> <a href="blog-full-width-single-post.html"><img src="images/blog-widget-02.jpg" alt=""/></a> </div>
+                    <div class="widget-thumb"> <a href="/blog-full-width"><img src="images/blog-widget-02.jpg" alt=""/></a> </div>
                     <div class="widget-text">
-                      <h5><a href="blog-full-width-single-post.html">Hey Its Time To Get Up And Get Hired.</a></h5>
+                      <h5><a href="/blog-full-width">Hey Its Time To Get Up And Get Hired.</a></h5>
                       <span>$22,000/mo</span> 
 					</div>
                     <div class="clearfix"></div>
@@ -614,9 +614,9 @@ function Listings() {
                 
                 <li>
                   <div class="widget-content">
-                    <div class="widget-thumb"> <a href="blog-full-width-single-post.html"><img src="images/blog-widget-01.jpg" alt=""/></a> </div>
+                    <div class="widget-thumb"> <a href="/blog-full-width"><img src="images/blog-widget-01.jpg" alt=""/></a> </div>
                     <div class="widget-text">
-                      <h5><a href="blog-full-width-single-post.html">The Best Canadian Merchant Account Providers.</a></h5>
+                      <h5><a href="/blog-full-width">The Best Canadian Merchant Account Providers.</a></h5>
                       <span>$22,000/mo</span> 
 					</div>
                     <div class="clearfix"></div>

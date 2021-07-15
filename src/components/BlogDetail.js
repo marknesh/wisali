@@ -14,7 +14,7 @@ function BlogDetail() {
             {/* Breadcrumbs */}
             <nav id="breadcrumbs">
               <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Our Blog</li>
               </ul>
             </nav>
@@ -44,7 +44,7 @@ function BlogDetail() {
                 <div className="utf-quote-info">
                   <h4>Make a Difference with Your Online Property!</h4>
                   <p>Lorem Ipsum is simply dummy text of printing and type industry.</p>
-                  <a href="register.html" className="button utf-ripple-effect-dark utf-button-sliding-icon margin-top-10">Create an Account <i className="icon-feather-chevrons-right" /></a>
+                  <a href="/register" className="button utf-ripple-effect-dark utf-button-sliding-icon margin-top-10">Create an Account <i className="icon-feather-chevrons-right" /></a>
                 </div>
               </div>
             </div>
@@ -71,9 +71,9 @@ function BlogDetail() {
                 {/* Post #1 */}
                 <li>
                   <div className="widget-content">
-                    <div className="widget-thumb"> <a href="blog-full-width-single-post.html"><img src="images/blog-widget-03.jpg" alt="" /></a> </div>
+                    <div className="widget-thumb"> <a href="/blog-detail"><img src="images/blog-widget-03.jpg" alt="" /></a> </div>
                     <div className="widget-text">
-                      <h5><a href="blog-full-width-single-post.html">How to Woo a Recruiter and Land Your Dream.</a></h5>
+                      <h5><a href="/blog-detail">How to Woo a Recruiter and Land Your Dream.</a></h5>
                       <span>15 May, 2021</span> 
                     </div>
                     <div className="clearfix" />
@@ -82,9 +82,9 @@ function BlogDetail() {
                 {/* Post #2 */}
                 <li>
                   <div className="widget-content">
-                    <div className="widget-thumb"> <a href="blog-full-width-single-post.html"><img src="images/blog-widget-02.jpg" alt="" /></a> </div>
+                    <div className="widget-thumb"> <a href="/blog-detail"><img src="images/blog-widget-02.jpg" alt="" /></a> </div>
                     <div className="widget-text">
-                      <h5><a href="blog-full-width-single-post.html">Hey Its Time To Get Up And Get Hired.</a></h5>
+                      <h5><a href="/blog-detail">Hey Its Time To Get Up And Get Hired.</a></h5>
                       <span>17 June, 2021</span> 
                     </div>
                     <div className="clearfix" />
@@ -93,9 +93,9 @@ function BlogDetail() {
                 {/* Post #3 */}
                 <li>
                   <div className="widget-content">
-                    <div className="widget-thumb"> <a href="blog-full-width-single-post.html"><img src="images/blog-widget-01.jpg" alt="" /></a> </div>
+                    <div className="widget-thumb"> <a href="/blog-detail"><img src="images/blog-widget-01.jpg" alt="" /></a> </div>
                     <div className="widget-text">
-                      <h5><a href="blog-full-width-single-post.html">The Best Canadian Merchant Account Providers.</a></h5>
+                      <h5><a href="/blog-detail">The Best Canadian Merchant Account Providers.</a></h5>
                       <span>22 May, 2021</span> 
                     </div>
                     <div className="clearfix" />
@@ -204,9 +204,9 @@ function BlogDetail() {
           <div className="row">
             <div className="col-md-6"> 
               <div className="blog-post"> 
-                <a href="blog_detail_right_sidebar.html" className="post-img"> <img src="images/blog-post-01.jpg" alt="" /> </a> 
+                <a href="/blog-detail" className="post-img"> <img src="images/blog-post-01.jpg" alt="" /> </a> 
                 <div className="utf-post-content-area">
-                  <h3><a href="blog_detail_right_sidebar.html">What It Really Takes to Make $100k Before You Turn 30</a></h3>
+                  <h3><a href="/blog-detail">What It Really Takes to Make $100k Before You Turn 30</a></h3>
                   <ul className="utf-blog-item-post-list">
                     <li>By, Maxwell Juma</li>	
                     <li>20 Jan, 2020</li>
@@ -217,9 +217,9 @@ function BlogDetail() {
             </div>
             <div className="col-md-6"> 
               <div className="blog-post"> 
-                <a href="blog_detail_right_sidebar.html" className="post-img"> <img src="images/blog-post-02.jpg" alt="" /> </a> 
+                <a href="/blog-detail" className="post-img"> <img src="images/blog-post-02.jpg" alt="" /> </a> 
                 <div className="utf-post-content-area">
-                  <h3><a href="blog_detail_right_sidebar.html">The Best Canadian Merchant Account Providers.</a></h3>
+                  <h3><a href="/blog-detail">The Best Canadian Merchant Account Providers.</a></h3>
                   <ul className="utf-blog-item-post-list">
                     <li>By, Jay Zeus</li>	
                     <li>15 May, 2021</li>

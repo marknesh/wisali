@@ -8,17 +8,17 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-4 col-sm-12 col-xs-12"> 
-            <a href="index.html"><img className="footer-logo" src="images/footer_logo.png" alt="" /></a>
+            <a href="/"><img className="footer-logo" src="images/footer_logo.png" alt="" /></a>
             <p>Lorem Ipsum is simply dummy text of printing and type setting industry. Lorem Ipsum been industry standard dummy text ever since, when unknown printer took a galley type scrambled.</p>          
           </div>
           <div className="col-md-2 col-sm-3 col-xs-6">
             <h4>Useful Links</h4>
             <ul className="utf-footer-links-item">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Us</a></li>
               <li><a href="#">Services</a></li>
               <li><a href="#">Properties</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
           <div className="col-md-2 col-sm-3 col-xs-6">
@@ -34,7 +34,7 @@ function Footer() {
           <div className="col-md-2 col-sm-3 col-xs-6">
             <h4>Resources</h4>
             <ul className="utf-footer-links-item">
-              <li><a href="register.html">My Account</a></li>
+              <li><a href="/register">My Account</a></li>
               <li><a href="#">Support</a></li>
               <li><a href="#">How It Works</a></li>
               <li><a href="#">Privacy Policy</a></li>
@@ -88,7 +88,7 @@ function Footer() {
               <input type="checkbox" id="two-step" />
               <label htmlFor="two-step"><span className="checkbox-icon" /> Remember Me</label>
             </div>
-            <a href="forgot_password.html" className="forgot-password">Forgot Password?</a>
+            <a href="/forgot-password" className="forgot-password">Forgot Password?</a>
           </form>
           <button className="button full-width utf-button-sliding-icon ripple-effect" type="submit" form="login-form">Log In <i className="icon-feather-chevrons-right" /></button>
           <div className="utf-social-login-separator-item"><span>or</span></div>

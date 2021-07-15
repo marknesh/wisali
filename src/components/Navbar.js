@@ -93,11 +93,11 @@ function Navbar() {
                   </ul>
                 </li>
 
-                <li><a href="about.html">About</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
-        <li><a href="pricing-tables.html">Pricing Plan</a></li>
-        <li><a href="compare-properties.html">Compare Properties</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+        <li><a href="/pricing-tables">Pricing Plan</a></li>
+        <li><a href="/compare-properties">Compare Properties</a></li>
 
               </ul>
             </li>
@@ -114,7 +114,7 @@ function Navbar() {
       <div class="right-side"> 
         <div class="header-widget"> 
           <a href="#utf-signin-dialog-block" class="popup-with-zoom-anim log-in-button sign-in"><i class="icon-line-awesome-user"></i> <span>Sign In</span></a> 
-          <a href="add-new-property.html" class="button border"><i class="icon-feather-plus-circle"></i> <span>Create Property</span></a> 
+          <a href="/add-new-property" class="button border"><i class="icon-feather-plus-circle"></i> <span>Create Property</span></a> 
         </div>
       </div>
 

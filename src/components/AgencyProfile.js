@@ -14,8 +14,8 @@ function AgencyProfile() {
             {/* Breadcrumbs */}
             <nav id="breadcrumbs">
               <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="agency-list.html">Agency Profile</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/agency-list">Agency Profile</a></li>
                 <li>House Real Estate</li>
               </ul>
             </nav>
@@ -29,12 +29,12 @@ function AgencyProfile() {
     <div className="row">
       <div className="col-md-12"> 
         {/* Agency */}
-        <div className="agent agents-profile agency"> <a href="agency-profile.html" className="utf-agent-avatar"> <img src="images/agency-01.jpg" alt="" /> </a>
+        <div className="agent agents-profile agency"> <a href="/agency-profile" className="utf-agent-avatar"> <img src="images/agency-01.jpg" alt="" /> </a>
           <div className="utf-agent-content">
             <div className="utf-agent-name">
               <p className="text-alt">Agency</p>
               <div className="fp_pdate">6 Hours Ago</div>	
-              <h4><a href="agency-profile.html">House Real Estate</a></h4>
+              <h4><a href="/agency-profile">House Real Estate</a></h4>
               <ul className="utf-agent-contact-details">
                 <li><i className="icon-material-outline-business" />Italy</li>
               </ul> 
@@ -112,7 +112,7 @@ function AgencyProfile() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> Julius Ogaden</a> <span>13 Days Ago</span></div>
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> Julius Ogaden</a> <span>13 Days Ago</span></div>
                   </div>
                 </div>
                 {/* Listing Item / End */} 
@@ -136,7 +136,7 @@ function AgencyProfile() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> Mark Omari</a> <span>10 Days Ago</span></div>
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> Mark Omari</a> <span>10 Days Ago</span></div>
                   </div>
                 </div>
                 {/* Listing Item / End */} 
@@ -160,7 +160,7 @@ function AgencyProfile() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> Samson Mendel</a> <span>15 Days Ago</span></div>
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> Samson Mendel</a> <span>15 Days Ago</span></div>
                   </div>                  
                 </div>
                 {/* Listing Item / End */} 
@@ -188,7 +188,7 @@ function AgencyProfile() {
                       <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                       <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
                     </ul>
-                    <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>24 Days Ago</span></div>
+                    <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>24 Days Ago</span></div>
                   </div>                  
                 </div>                
               </div>
@@ -214,10 +214,10 @@ function AgencyProfile() {
               <div className="row"> 
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-01.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-01.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">Leon Jamal</a></h4>
+                        <h4><a href="/agents-profile">Leon Jamal</a></h4>
                         <span>Agent In Afghanistan</span> 
                       </div>                      
                     </div>
@@ -227,10 +227,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-02.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-02.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">Luke Bernard</a></h4>
+                        <h4><a href="/agents-profile">Luke Bernard</a></h4>
                         <span>Agent In Venice</span> 
                       </div>                      
                     </div>
@@ -240,10 +240,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-03.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-03.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">Karen Bigalow</a></h4>
+                        <h4><a href="/agents-profile">Karen Bigalow</a></h4>
                         <span>Agent In Rome</span> 
                       </div>                      
                     </div>
@@ -253,10 +253,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-04.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-04.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">Tracy Nancy</a></h4>
+                        <h4><a href="/agents-profile">Tracy Nancy</a></h4>
                         <span>Agent In Milan</span> 
                       </div>                      
                     </div>
@@ -266,10 +266,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-05.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-05.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">Esther Mordecai</a></h4>
+                        <h4><a href="/agents-profile">Esther Mordecai</a></h4>
                         <span>Agent In Pisa</span> 
                       </div>                      
                     </div>
@@ -279,10 +279,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-06.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-06.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">Bill Mazden</a></h4>
+                        <h4><a href="/agents-profile">Bill Mazden</a></h4>
                         <span>Agent In Naples</span> 
                       </div>                      
                     </div>
@@ -292,10 +292,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-07.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-07.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">Naim Sims</a></h4>
+                        <h4><a href="/agents-profile">Naim Sims</a></h4>
                         <span>Agent In Amalfi</span> 
                       </div>                      
                     </div>
@@ -305,10 +305,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-08.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-08.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">Pamela Osaka</a></h4>
+                        <h4><a href="/agents-profile">Pamela Osaka</a></h4>
                         <span>Agent In Siena</span> 
                       </div>                      
                     </div>
@@ -318,10 +318,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-09.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-09.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">John Baptista</a></h4>
+                        <h4><a href="/agents-profile">John Baptista</a></h4>
                         <span>Agent In Bologna</span> 
                       </div>                      
                     </div>
@@ -331,10 +331,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-10.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-10.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">Daniel Lions</a></h4>
+                        <h4><a href="/agents-profile">Daniel Lions</a></h4>
                         <span>Agent In Lucca</span> 
                       </div>                      
                     </div>
@@ -344,10 +344,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-01.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-01.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html">Zena Marion</a></h4>
+                        <h4><a href="/agents-profile">Zena Marion</a></h4>
                         <span>Agent In Matera</span> 
                       </div>                      
                     </div>
@@ -357,10 +357,10 @@ function AgencyProfile() {
                 {/* Agent */}
                 <div className="col-lg-4 col-md-6 col-xs-12">
                   <div className="agent">
-                    <div className="utf-agent-avatar"> <a href="agents-profile.html"> <img src="images/agent-02.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
+                    <div className="utf-agent-avatar"> <a href="/agents-profile"> <img src="images/agent-02.jpg" alt="" /> <span className="view-profile-btn">View Profile</span> </a> </div>
                     <div className="utf-agent-content">
                       <div className="utf-agent-name">
-                        <h4><a href="agents-profile.html"> Kennedy Obama </a></h4>
+                        <h4><a href="/agents-profile"> Kennedy Obama </a></h4>
                         <span>Agent In Genoa</span> 
                       </div>                      
                     </div>

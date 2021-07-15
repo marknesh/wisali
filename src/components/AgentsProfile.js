@@ -14,7 +14,7 @@ function AgentsProfile() {
             {/* Breadcrumbs */}
             <nav id="breadcrumbs">
               <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Agent Profile</li>
               </ul>
             </nav>
@@ -28,10 +28,10 @@ function AgentsProfile() {
     <div className="row">
       <div className="col-md-12"> 
         {/* Agency */}
-        <div className="agent agents-profile agency margin-bottom-40"> <a href="agency-profile.html" className="utf-agent-avatar"> <img src="images/agent-01.jpg" alt="" /> </a>
+        <div className="agent agents-profile agency margin-bottom-40"> <a href="/agency-profile" className="utf-agent-avatar"> <img src="images/agent-01.jpg" alt="" /> </a>
           <div className="utf-agent-content">
             <div className="utf-agent-name">
-              <h4><a href="agency-profile.html">John Williams</a></h4>
+              <h4><a href="/agency-profile">John Williams</a></h4>
               <span>Agent In Italy</span>
               <ul className="utf-social-icons">
                 <li><a className="facebook" href="#"><i className="icon-facebook" /></a></li>
@@ -101,7 +101,7 @@ function AgentsProfile() {
                 <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                 <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
               </ul>
-              <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>
+              <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>
             </div>
           </div>
           {/* Listing Item / End */} 
@@ -125,7 +125,7 @@ function AgentsProfile() {
                 <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                 <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
               </ul>
-              <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>
+              <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>
             </div>
           </div>
           {/* Listing Item / End */} 
@@ -149,7 +149,7 @@ function AgentsProfile() {
                 <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                 <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
               </ul>
-              <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>
+              <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>
             </div>                  
           </div>
           {/* Listing Item / End */} 
@@ -177,7 +177,7 @@ function AgentsProfile() {
                 <li><i className="fa fa-car" /> Garages<span>2</span></li>					  					 
                 <li><i className="icon-line-awesome-arrows" /> Sq Ft<span>1530</span></li>
               </ul>
-              <div className="utf-listing-user-info"><a href="agents-profile.html"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>
+              <div className="utf-listing-user-info"><a href="/agents-profile"><i className="icon-line-awesome-user" /> John Williams</a> <span>1 Days Ago</span></div>
             </div>                  
           </div>                
         </div>
@@ -384,7 +384,7 @@ function AgentsProfile() {
               {/* Item */}
               <div className="item">
                 <div className="utf-listing-item compact"> 
-                  <a href="single-property-page-2.html" className="utf-smt-listing-img-container">
+                  <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> <span className="for-sale">For Sale</span> </div>
                     <div className="utf-listing-img-content-item"> 
                       <span className="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>
@@ -403,7 +403,7 @@ function AgentsProfile() {
               {/* Item */}
               <div className="item">
                 <div className="utf-listing-item compact"> 
-                  <a href="single-property-page-2.html" className="utf-smt-listing-img-container">
+                  <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> <span className="for-sale">For Sale</span> </div>
                     <div className="utf-listing-img-content-item"> 
                       <span className="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>
@@ -422,7 +422,7 @@ function AgentsProfile() {
               {/* Item */}
               <div className="item">
                 <div className="utf-listing-item compact"> 
-                  <a href="single-property-page-2.html" className="utf-smt-listing-img-container">
+                  <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                     <div className="utf-listing-badges-item"> <span className="for-sale">For Sale</span> </div>
                     <div className="utf-listing-img-content-item"> 
                       <span className="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>

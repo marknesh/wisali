@@ -14,7 +14,7 @@ function MyProperties() {
             {/* Breadcrumbs */}
             <nav id="breadcrumbs">
               <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>My Property</li>
               </ul>
             </nav>
@@ -41,11 +41,11 @@ function MyProperties() {
         <div className="sidebar margin-top-20">
           <div className="user-smt-account-menu-container">
             <ul className="user-account-nav-menu">
-              <li><a href="my-profile.html"><i className="sl sl-icon-user" /> My Profile</a></li>
+              <li><a href="/my-profile"><i className="sl sl-icon-user" /> My Profile</a></li>
               {/*  <li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Bookmark Listing</a></li> */}
-              <li><a href="my-properties.html" className="current"><i className="sl sl-icon-docs" /> My Property</a></li>
-              <li><a href="add-new-property.html"><i className="sl sl-icon-action-redo" /> New Property</a></li>
-              <li><a href="change-password.html"><i className="sl sl-icon-lock" /> Change Password</a></li>
+              <li><a href="/my-properties" className="current"><i className="sl sl-icon-docs" /> My Property</a></li>
+              <li><a href="/add-new-property"><i className="sl sl-icon-action-redo" /> New Property</a></li>
+              <li><a href="/change-password"><i className="sl sl-icon-lock" /> Change Password</a></li>
               <li><a href="#"><i className="sl sl-icon-power" /> Log Out</a></li>
             </ul>
           </div>
@@ -67,7 +67,7 @@ function MyProperties() {
             <tr>
               <td className="utf-title-container"><img src="images/listing-02.jpg" alt="" />
                 <div className="title">
-                  <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                  <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                   <span>2021 San Pedro, Los Angeles</span> <span className="table-property-price">$20,000/mo</span> 
                 </div>
               </td>
@@ -81,7 +81,7 @@ function MyProperties() {
             <tr>
               <td className="utf-title-container"><img src="images/listing-05.jpg" alt="" />
                 <div className="title">
-                  <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                  <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                   <span>2021 San Pedro, Los Angeles</span> <span className="table-property-price">$20,000/mo</span> 
                 </div>
               </td>
@@ -95,7 +95,7 @@ function MyProperties() {
             <tr>
               <td className="utf-title-container"><img src="images/listing-04.jpg" alt="" />
                 <div className="title">
-                  <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                  <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                   <span>2021 San Pedro, Los Angeles</span> <span className="table-property-price">$20,000/mo</span> 
                 </div>
               </td>
@@ -109,7 +109,7 @@ function MyProperties() {
             <tr>
               <td className="utf-title-container"><img src="images/listing-06.jpg" alt="" />
                 <div className="title">
-                  <h4><a href="single-property-page-1.html">Renovated Luxury Apartment</a></h4>
+                  <h4><a href="/single-property-page-1">Renovated Luxury Apartment</a></h4>
                   <span>2021 San Pedro, Los Angeles</span> <span className="table-property-price">$20,000/mo</span> 
                 </div>
               </td>
@@ -120,7 +120,7 @@ function MyProperties() {
               </td>
             </tr>
           </tbody></table>
-        <a href="add-new-property.html" className="utf-centered-button margin-top-30 button">Submit New Property</a> 
+        <a href="/add-new-property" className="utf-centered-button margin-top-30 button">Submit New Property</a> 
       </div>
     </div>
   </div>

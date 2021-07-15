@@ -20,7 +20,7 @@ function SingleProperty() {
            
             <nav id="breadcrumbs">
               <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Listing Details</li>
               </ul>
             </nav>
@@ -218,7 +218,7 @@ function SingleProperty() {
 				  <li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				  <li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
                 </ul>
-                <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i> Jonathan Moi</a> <span>14 Days Ago</span></div>
+                <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i> Jonathan Moi</a> <span>14 Days Ago</span></div>
               </div>              
             </div>
            
@@ -244,7 +244,7 @@ function SingleProperty() {
 				  <li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				  <li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
                 </ul>
-                <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i> Uhuru Danel</a> <span>30 Days Ago</span></div>
+                <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i> Uhuru Danel</a> <span>30 Days Ago</span></div>
               </div>              
             </div>
            
@@ -269,7 +269,7 @@ function SingleProperty() {
 				  <li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				  <li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
                 </ul>
-                <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i>Logan Paul</a> <span>22 Days Ago</span></div>
+                <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i>Logan Paul</a> <span>22 Days Ago</span></div>
               </div>              
             </div>
            
@@ -294,7 +294,7 @@ function SingleProperty() {
 				  <li><i class="fa fa-car"></i> Garages<span>2</span></li>					  					 
 				  <li><i class="icon-line-awesome-arrows"></i> Sq Ft<span>1530</span></li>
                 </ul>
-                <div class="utf-listing-user-info"><a href="agents-profile.html"><i class="icon-line-awesome-user"></i>Jake paul</a> <span>13 Days Ago</span></div>
+                <div class="utf-listing-user-info"><a href="/agents-profile"><i class="icon-line-awesome-user"></i>Jake paul</a> <span>13 Days Ago</span></div>
               </div>              
             </div>
            
@@ -429,7 +429,7 @@ function SingleProperty() {
         
           
 
-				  <span><a href="agents-profile.html">View My Listing</a></span>
+				  <span><a href="/agents-profile">View My Listing</a></span>
 				</div>
                 <div class="clearfix"></div>
               </div>
@@ -629,7 +629,7 @@ function SingleProperty() {
                   <div class="widget-content">
                     <div class="widget-thumb"> <a href="#"><img src="images/blog-widget-03.jpg" alt=""/></a> </div>
                     <div class="widget-text">
-                      <h5><a href="blog-full-width-single-post.html">How to “Woo” a Recruiter and Land Your Dream Job.</a></h5>
+                      <h5><a href="/blog-full-width">How to “Woo” a Recruiter and Land Your Dream Job.</a></h5>
                       <span>$22,000/mo</span> 
 					</div>
                     <div class="clearfix"></div>
@@ -641,7 +641,7 @@ function SingleProperty() {
                   <div class="widget-content">
                     <div class="widget-thumb"> <a href="#"><img src="images/blog-widget-02.jpg" alt=""/></a> </div>
                     <div class="widget-text">
-                      <h5><a href="blog-full-width-single-post.html">Hey Job Seeker, It’s Time To Get Up And Get Hired.</a></h5>
+                      <h5><a href="/blog-full-width">Hey Job Seeker, It’s Time To Get Up And Get Hired.</a></h5>
                       <span>$18,000/mo</span> 
 					</div>
                     <div class="clearfix"></div>
@@ -653,7 +653,7 @@ function SingleProperty() {
                   <div class="widget-content">
                     <div class="widget-thumb"> <a href="#"><img src="images/blog-widget-01.jpg" alt=""/></a> </div>
                     <div class="widget-text">
-                      <h5><a href="blog-full-width-single-post.html">The Best Canadian Merchant Account Providers.</a></h5>
+                      <h5><a href="/blog-full-width">The Best Canadian Merchant Account Providers.</a></h5>
                       <span>$15,000/mo</span> 
 					</div>
                     <div class="clearfix"></div>
@@ -704,7 +704,7 @@ function SingleProperty() {
              
               <div class="item">
                 <div class="utf-listing-item compact"> 
-				  <a href="single-property-page-2.html" class="utf-smt-listing-img-container">
+				  <a href="/single-property-page-1" class="utf-smt-listing-img-container">
 					  <div class="utf-listing-badges-item"><span class="for-sale">For Sale</span> </div>
 					  <div class="utf-listing-img-content-item"> 
 						 <span class="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>
@@ -724,7 +724,7 @@ function SingleProperty() {
              
               <div class="item">
                 <div class="utf-listing-item compact"> 
-				  <a href="single-property-page-2.html" class="utf-smt-listing-img-container">
+				  <a href="/single-property-page-1" class="utf-smt-listing-img-container">
 					  <div class="utf-listing-badges-item"> <span class="featured">Featured</span> <span class="for-sale">For Sale</span> </div>
 					  <div class="utf-listing-img-content-item"> 
 						 <span class="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>
@@ -744,7 +744,7 @@ function SingleProperty() {
              
               <div class="item">
                 <div class="utf-listing-item compact"> 
-				  <a href="single-property-page-2.html" class="utf-smt-listing-img-container">
+				  <a href="/single-property-page-1" class="utf-smt-listing-img-container">
 					  <div class="utf-listing-badges-item"> <span class="featured">Featured</span> <span class="for-sale">For Sale</span> </div>
 					  <div class="utf-listing-img-content-item"> 
 						 <span class="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>

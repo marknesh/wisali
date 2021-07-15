@@ -14,7 +14,7 @@ function MyProfile() {
             {/* Breadcrumbs */}
             <nav id="breadcrumbs">
               <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>My Profile</li>
               </ul>
             </nav>
@@ -41,11 +41,11 @@ function MyProfile() {
         <div className="sidebar margin-top-20">
           <div className="user-smt-account-menu-container">
             <ul className="user-account-nav-menu">
-              <li><a href="my-profile.html" className="current"><i className="sl sl-icon-user" /> My Profile</a></li>
+              <li><a href="/my-profile" className="current"><i className="sl sl-icon-user" /> My Profile</a></li>
               {/* <li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Bookmark Listing</a></li> */}
-              <li><a href="my-properties.html"><i className="sl sl-icon-docs" /> My Property</a></li>
-              <li><a href="add-new-property.html"><i className="sl sl-icon-action-redo" /> New Property</a></li>
-              <li><a href="change-password.html"><i className="sl sl-icon-lock" /> Change Password</a></li>
+              <li><a href="/my-properties"><i className="sl sl-icon-docs" /> My Property</a></li>
+              <li><a href="/add-new-property"><i className="sl sl-icon-action-redo" /> New Property</a></li>
+              <li><a href="/change-password"><i className="sl sl-icon-lock" /> Change Password</a></li>
               <li><a href="#"><i className="sl sl-icon-power" /> Log Out</a></li>
             </ul>            
           </div>

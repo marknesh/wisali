@@ -4,13 +4,25 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import SingleProperty from './components/SingleProperty';
+import Home from './components/Home';
+import Listings from './components/Listings';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
+    <Router>
+      <Navbar/>
+    <Switch>
+    <Route path="/listings-list-with-map" component={Listings} />
+    <Route path="/single-property-page-1" component={SingleProperty} /> 
+    <Route path="/" component={Home} />
+</Switch>
+   
+    </Router>
   </React.StrictMode>,
 
-  document.getElementById('wrapper')
+  document.getElementById('wrapper'),
 );
 ReactDOM.render(
   <React.StrictMode>

@@ -55,6 +55,9 @@
 /* ---------------------------------- */
 /* General Styles
 ------------------------------------- */
+.ficha{
+	display: none;
+}
 
 #top-bar {
 	background-color: #00a8d4;
@@ -1013,12 +1016,12 @@ button.widget-button {
 	visibility: visible;
 	transform: translate3d(0, 0, 0);
 }
-/* #navigation.style-1 .current {
+#navigation.style-1 .current {
 	color: #00a8d4;	
-} */
-/* #navigation.style-1 .current:after {
+}
+#navigation.style-1 .current:after {
 	opacity: 1;
-} */
+}
 #navigation.style-1 ul li {
 	transition: all 0.25s;
 	border-radius: 3px;

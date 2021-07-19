@@ -76,7 +76,7 @@ function Home() {
                   {/* Main Search Input */}
                   <div className="col-md-6">
                     <div className="utf-main-search-input-item">
-                      <input type="text" placeholder="Enter Keywords..." defaultValue />
+                      <input type="text" placeholder="Enter Keywords..."  />
                       <button className="button"><i className="fa fa-search" /> Search</button>
                     </div>
                   </div>

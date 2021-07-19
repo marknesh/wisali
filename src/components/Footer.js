@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Footer() {
+
+
+  const [open,setOpen]=useState(false)
+
+  function openChat(){
+
+   return  setOpen(!open)
+  }
     return (
         <div>
         
@@ -145,17 +153,19 @@ function Footer() {
   </div>
   {/* Sign In Popup / End */}
   {/* Open Chat Box */} 
-  <button className="open-button" onclick="openForm()">Chat</button>
+  {!open && <button className="open-button" onClick={openChat}>Chat</button>}
+  {open &&
   <div className="chat-popup" id="myForm">
     <form action="/action_page.php" className="form-container">
       <h3>Chat</h3>
       <label htmlFor="msg"><b> How can we help you today?</b></label>
       <textarea placeholder="Type message.." name="msg" required defaultValue={""} />
       <button type="submit" className="btn">Send</button>
-      <button type="button" className="btn cancel" onclick="closeForm()">Close</button>
+      <button type="button" className="btn cancel" onClick={openChat}>Close</button>
     </form>
   </div>
 
+  }
 
 
 

@@ -159,7 +159,7 @@ function Footer() {
     <form action="/action_page.php" className="form-container">
       <h3>Chat</h3>
       <label htmlFor="msg"><b> How can we help you today?</b></label>
-      <textarea placeholder="Type message.." name="msg" required defaultValue={""} />
+      <textarea placeholder="Type message.." name="msg" required />
       <button type="submit" className="btn">Send</button>
       <button type="button" className="btn cancel" onClick={openChat}>Close</button>
     </form>

@@ -104,7 +104,7 @@ function Home() {
             {/* Listing Item */}
             <div className="utf-carousel-item-area">
               <div className="utf-listing-item compact"> 
-                <Link to="/single-property-page-1" className="utf-smt-listing-img-container">
+                <a href="/single-property-page-1" className="utf-smt-listing-img-container">
                   <div className="utf-listing-badges-item"> <span className="for-rent">For Rent</span> </div> 
                   <div className="utf-listing-img-content-item">
                     <span className="utf-listing-compact-title-item">Renovated Luxury Apartment <i>$18,000/mo</i></span>
@@ -116,7 +116,7 @@ function Home() {
                     <li><i className="fa fa-car" /> Garages <span>2</span></li>
                     <li><i className="fa fa-arrows-alt" /> Sq Ft <span>780</span></li>
                   </ul>
-                </Link> 
+                </a> 
               </div>
             </div>
             {/* Listing Item / End */} 

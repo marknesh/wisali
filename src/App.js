@@ -12,11 +12,11 @@ function App() {
 
 
 
-
-<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script> 
+{/* 
+<script src="https://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script> 
 <script src="/scripts/infobox.min.js"></script> 
 <script src="/scripts/markerclusterer.js"></script> 
-<script src="/scripts/maps.js"></script>
+<script src="/scripts/maps.js"></script> */}
             </Helmet>
         
 

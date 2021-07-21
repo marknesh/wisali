@@ -4,7 +4,7 @@ import { useRef } from 'react'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { Helmet } from 'react-helmet'
 import { useAuth } from '../context/AuthContext'
-import { auth, provider } from '../firebase'
+import { auth, facebookProvider, provider } from '../firebase'
 
 
 function Navbar() {
@@ -30,6 +30,13 @@ const {user}=useAuth()
    
         })
        }
+       element.querySelector('.facebook-login').onclick = () => {
+        auth.signInWithPopup(facebookProvider).then(res=>{
+         window.location.href="/"
+   
+   
+        }).catch(err=>console.log(err.message))
+       }
     }
   
   
@@ -40,7 +47,11 @@ const {user}=useAuth()
 signOutRef = (element) => {
   if(element){
     element.querySelector('.sign-out').onclick = () => {
-      auth.signOut()
+      auth.signOut().then(res=>{
+        window.location.href="/"
+  
+  
+       })
      }
   }
 
@@ -331,9 +342,9 @@ signOutRef = (element) => {
           </form>
           <button className="margin-top-10 button full-width utf-button-sliding-icon ripple-effect" type="submit" form="utf-register-account-form">Register <i className="icon-feather-chevrons-right" /></button>
           <div className="utf-social-login-separator-item"><span>or</span></div>
-          <div className="utf-social-login-buttons-block">
+          <div className="utf-social-login-buttons-block " ref={buttonref}>
             <button className="facebook-login ripple-effect"><i className="icon-brand-facebook-f" /> Facebook</button>
-            <button className="google-login ripple-effect"><i className="icon-brand-google-plus-g" /> Google+</button>
+            <button className="google-login ripple-effect" ><i className="icon-brand-google-plus-g" /> Google+</button>
             <button className="twitter-login ripple-effect"><i className="icon-brand-twitter" /> Twitter</button>
           </div>
         </div>

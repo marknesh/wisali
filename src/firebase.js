@@ -17,5 +17,7 @@ const app=!firebase.apps.length?firebase.initializeApp(config):firebase.app()
 
 const auth=app.auth()
 const provider=new firebase.auth.GoogleAuthProvider()
+const facebookProvider = new firebase.auth.FacebookAuthProvider();
+facebookProvider.addScope('public_profile');
 
-export {auth,provider}
+export {auth,provider,facebookProvider}

@@ -26,10 +26,11 @@ import ForgotPassword from './components/ForgotPassword';
 import AllCategories from './components/AllCategories';
 import Payment from './components/Payment';
 import BlogFullWidth from './components/BlogFullWidth';
+import { AuthProvider } from './context/AuthContext';
 
 ReactDOM.render(
  
-    
+    <AuthProvider>
     <Router>
       <Navbar/>
     <Switch>
@@ -58,13 +59,16 @@ ReactDOM.render(
 </Switch>
    
     </Router>
+
+    </AuthProvider>
  ,
 
   document.getElementById('wrapper'),
 );
 ReactDOM.render(
- 
+
     <App />
+  
 ,
   document.getElementById('root')
 );

@@ -63,6 +63,11 @@
 	position: relative;
 	z-index: 1001;
 }
+
+.changeMap{
+	z-index: 1;
+	margin-top: 84px;
+}
 ul.top-bar-menu {
 	margin: 0;
 	padding: 8px 0;

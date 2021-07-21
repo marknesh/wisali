@@ -1,13 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
 import Layout from './Layout'
 
 function Home() {
+  const {user}=useAuth()
     return (
         <Layout>
           
         
-            <div id="map-container" className="homepage-map margin-bottom-0">
+            <div id="map-container" className="homepage-map margin-bottom-0" style={{zIndex:user && 1,marginTop:user && "88px"}}>
       <div id="map"> 
         {/* map goes here */} 
       </div>

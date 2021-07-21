@@ -9,9 +9,11 @@ import { auth, provider } from '../firebase'
 
 function Navbar() {
 
+  let buttonref=useRef(null)
+  let signOutRef=useRef(null)
+    
 
-
-var {buttonref,user}=useAuth()
+const {user}=useAuth()
 
 
 
@@ -35,6 +37,19 @@ var {buttonref,user}=useAuth()
 }
 
 
+signOutRef = (element) => {
+  if(element){
+    element.querySelector('.sign-out').onclick = () => {
+      auth.signOut()
+     }
+  }
+
+
+
+}
+
+
+
 
     return (
     
@@ -54,7 +69,7 @@ var {buttonref,user}=useAuth()
         
           
    <div className="utf-compare-slidebar-area">
-  <div className="utf-smt-trigger-item" onClick={()=>auth.signOut()}/>
+  <div className="utf-smt-trigger-item"/>
   <div className="utf-smt-content">
     <h4>Compare Property
       <span className="utf-smt-mobile-trigger-item"  />
@@ -78,9 +93,9 @@ var {buttonref,user}=useAuth()
 </div>
 
 {user &&
-<>
 
-  <header id="header-container" class="fullwidth"> 
+
+  <header id="header-container" class="fullwidth" style={{position:"fixed",zIndex:200,top:0,left:0,right:0,backgroundColor:"white"}}> 
 
   <div id="header">
     <div class="container"> 
@@ -131,8 +146,7 @@ var {buttonref,user}=useAuth()
                 </li>
 
                 <li><a href="/about">About</a></li>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/register">Register</a></li>
+            
         <li><a href="/pricing-tables">Pricing Plan</a></li>
         <li><a href="/compare-properties">Compare Properties</a></li>
 
@@ -149,8 +163,9 @@ var {buttonref,user}=useAuth()
       
       
       <div class="right-side"> 
-        <div class="header-widget"> 
-          <a href="#utf-signin-dialog-block" class="popup-with-zoom-anim log-in-button sign-in"><i class="icon-line-awesome-user"></i> <span>Sign In</span></a> 
+        <div class="header-widget"  ref={signOutRef}> 
+         {!user &&  <a href="#utf-signin-dialog-block" class="popup-with-zoom-anim log-in-button sign-in"><i class="icon-line-awesome-user"></i> <span>Sign In</span></a> }
+         {user &&  <a class="popup-with-zoom-anim log-in-button sign-in sign-out" style={{cursor:"pointer"}}><i class="icon-line-awesome-user"></i> <span>Sign Out</span></a> }
           <a href="/add-new-property" class="button border"><i class="icon-feather-plus-circle"></i> <span>Create Property</span></a> 
         </div>
       </div>
@@ -160,14 +175,13 @@ var {buttonref,user}=useAuth()
   </div>
 
 </header>
-<div className="clearfix" />
 
-</>}
+}
 
 
 
 {!user &&
-<>
+
 
   <header id="header-container" class="fullwidth"> 
 
@@ -240,9 +254,10 @@ var {buttonref,user}=useAuth()
   </div>
 
 </header>
-<div className="clearfix" />
 
-</>}
+
+}
+<div className="clearfix" />
 
 {/* modal */}
 

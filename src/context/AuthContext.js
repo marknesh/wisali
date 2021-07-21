@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+
 import { useContext } from "react";
 import { createContext } from "react";
 import { auth } from "../firebase";
@@ -14,18 +14,16 @@ export const useAuth=()=>{
 
 
 export function AuthProvider({children}){
-    const [user, loading, error] = useAuthState(auth);
+    const [user, loading] = useAuthState(auth);
     
 
-let buttonRef=useRef(null)
-    
+
 
 
   
 
     const value={
-        user,
-        buttonRef
+        user
     }
 
 

@@ -1,22 +1,180 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useEffect } from 'react'
 import { useRef } from 'react'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { Helmet } from 'react-helmet'
+import { toast } from 'react-toastify'
 import { useAuth } from '../context/AuthContext'
 import { auth, facebookProvider, provider } from '../firebase'
 
 
 function Navbar() {
+const [email,setEmail]=useState(null)
+const [emailError,setEmailError]=useState(null)
+const [password,setPassword]=useState(null)
+const [passwordError,setPasswordError]=useState(null)
+
+const [confirmPassword,setConfirmPassword]=useState(null)
+const [confirmPasswordError,setConfirmPasswordError]=useState(null)
+
+const [firstName,setFirstName]=useState(null)
+const [firstNameError,setFirstNameError]=useState(null)
+
+const [secondName,setSecondName]=useState(null)
+const [secondNameError,setSecondNameError]=useState(null)
+
+const [agree,setAgree]=useState(false)
+const [agreeError,setAgreeError]=useState(null)
+
+  let emailRef=useRef(null)
+  let registerRef=useRef(null)
+
+  const apiKey=process.env.REACT_APP_MAP_API_KEY
 
   let buttonref=useRef(null)
   let signOutRef=useRef(null)
     
 
-const {user}=useAuth()
+const {user,signup}=useAuth()
 
 
 
+
+registerRef = (element) => {
+  if(element){
+    element.onclick = async(e) => {
+      e.preventDefault()
+
+      if(!email?.trim() && !password?.trim() && !confirmPassword?.trim()  && !firstName?.trim() && !secondName?.trim() && !firstName?.trim()  ){
+       
+          setEmailError("email is required")
+           setPasswordError("password is required")
+           setConfirmPasswordError("password confirmation is required")
+           setFirstNameError("firstName is required")
+           setSecondNameError("secondName is required")
+        
+           return;
+
+        
+      }
+if(!email?.trim()){
+ return  setEmailError("email is required")
+}
+if(!password?.trim()){
+  return  setPasswordError("password is required")
+ }
+ if(!confirmPassword?.trim()){
+  return  setConfirmPasswordError("password confirmation is required")
+ }
+ if( !firstName?.trim() ){
+   return   setFirstNameError("first name is required")
+
+ }
+ if( !secondName?.trim() ){
+  return   setSecondNameError("second name is required")
+
+}
+if( !agree ){
+  return    setAgreeError("please agree to continue")
+
+}
+      
+ 
+
+      try{
+        
+     await signup(email,password)
+     .then(()=>{
+       window.location.href="/"
+     })
+     .catch(()=>{
+      toast.error(<span className="alertText">An error occurred. Please try again later!</span>, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+     })
+     
+   
+    }
+    catch(e){
+      toast.error(<span className="alertText">An error occurred. Please try again later!</span>, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+      
+
+    }
+    
+     }
+    
+    
+  }
+
+
+
+}
+
+
+
+
+emailRef = (element) => {
+  if(element){
+    element.querySelector('.email').onchange = (e) => {
+      setEmail(e.target.value)
+      setEmailError(null)
+    
+     }
+     element.querySelector('.password').onchange = (e) => {
+      setPassword(e.target.value)
+      setPasswordError(null)
+    
+     }
+     element.querySelector('.confirmpassword').onchange = (e) => {
+      setConfirmPassword(e.target.value)
+      setConfirmPasswordError(null)
+    
+     }
+     element.querySelector('.firstName').onchange = (e) => {
+      setFirstName(e.target.value)
+      setFirstNameError(null)
+    
+     }
+     element.querySelector('.secondName').onchange = (e) => {
+      setSecondName(e.target.value)
+      setSecondNameError(null)
+    
+     }
+     element.querySelector('.agree').onchange = (e) => {
+    
+       if (element.querySelector('.agree').checked){
+        setAgree(true)
+
+       }
+       else{
+        setAgree(false)
+
+       }
+       
+  
+     setAgreeError(null)
+    
+     }
+    
+  }
+
+
+
+}
 
 
 
@@ -72,7 +230,8 @@ signOutRef = (element) => {
   
 
 
-<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script> 
+<script src={`http://maps.google.com/maps/api/js?key=${apiKey}&sensor=false&amp;language=en`}></script> 
+
 <script src="/scripts/infobox.min.js"></script> 
 <script src="/scripts/markerclusterer.js"></script> 
 <script src="/scripts/maps.js"></script>
@@ -310,9 +469,9 @@ signOutRef = (element) => {
         <div className="utf-popup-tab-content-item" id="register"> 
           <div className="utf-welcome-text-item">
             <h3>Create your Account!</h3>
-            <span>Don't Have an Account? <a href="#" className="register-tab">Sign Up!</a></span> 
+            <span>Do You Have an Account? <a href="#" className="login-tab">Log in!</a></span> 
           </div>        
-          <form method="post" id="utf-register-account-form">
+          <form  id="utf-register-account-form" ref={emailRef}>
             <div className="utf-no-border margin-bottom-20">
               <select className="utf-chosen-select-single-item utf-with-border" title="Single User">
                 <option>Private</option>
@@ -320,27 +479,33 @@ signOutRef = (element) => {
                 <option>Platinum</option>				
               </select>
             </div>
-            <div className="utf-no-border">
-              <input type="text" name="name" id="name" placeholder="First Name" required />
+            <div className="utf-no-border" >
+              <input type="text" name="secondname"   className="firstName" id="name" placeholder="First Name"  />
+              {firstNameError &&  <div className="formError">{firstNameError}</div>}
             </div>
             <div className="utf-no-border">
-              <input type="text" name="name" id="name" placeholder="Second Name" required />
+              <input type="text" name="name"  className="secondName" id="secondName" placeholder="Second Name"  />
+              {secondNameError &&  <div className="formError">{secondNameError}</div>}
+            </div>
+            <div className="utf-no-border" >
+              <input type="text" name="emailaddress-register" className="email" id="emailaddress-register" placeholder="Email Address" required />
+              {emailError &&  <div className="formError">{emailError}</div>}
             </div>
             <div className="utf-no-border">
-              <input type="text" name="emailaddress-register" id="emailaddress-register" placeholder="Email Address" required />
+              <input type="password" name="password-register" className="password" id="password-register" placeholder="Password"  required />
+              {passwordError &&  <div className="formError">{passwordError}</div>}
             </div>
             <div className="utf-no-border">
-              <input type="password" name="password-register" id="password-register" placeholder="Password" required />
-            </div>
-            <div className="utf-no-border">
-              <input type="password" name="password-repeat-register" id="password-repeat-register" placeholder="Repeat Password" required />
+              <input type="password" name="password-repeat-register" className="confirmpassword" id="password-repeat-register" placeholder="Repeat Password" />
+              {confirmPasswordError &&  <div className="formError">{confirmPasswordError}</div>}
             </div>
             <div className="checkbox margin-top-0">
-              <input type="checkbox" id="two-step0" />
+              <input type="checkbox" id="two-step0" className="agree" />
               <label htmlFor="two-step0"><span className="checkbox-icon" /> By Registering You Confirm That You Accept <a href="#">Terms &amp; Conditions</a> and <a href="#">Privacy Policy</a></label>
+              {agreeError &&  <div className="formError">{agreeError}</div>}
             </div>
           </form>
-          <button className="margin-top-10 button full-width utf-button-sliding-icon ripple-effect" type="submit" form="utf-register-account-form">Register <i className="icon-feather-chevrons-right" /></button>
+          <button  ref={registerRef} className="margin-top-10 button full-width utf-button-sliding-icon ripple-effect" type="submit" form="utf-register-account-form">Register <i className="icon-feather-chevrons-right" /></button>
           <div className="utf-social-login-separator-item"><span>or</span></div>
           <div className="utf-social-login-buttons-block " ref={buttonref}>
             <button className="facebook-login ripple-effect"><i className="icon-brand-facebook-f" /> Facebook</button>

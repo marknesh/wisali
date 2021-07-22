@@ -7,11 +7,12 @@ function Home() {
   const {user}=useAuth()
     return (
         <Layout>
-          
+       
         
-            <div id="map-container" className="homepage-map margin-bottom-0" style={{zIndex:user && 1,marginTop:user && "88px"}}>
+            <div id="map-container" className="homepage-map margin-bottom-0" style={{zIndex:user && 1}}>
       <div id="map"> 
         {/* map goes here */} 
+           {/* 88px */}
       </div>
       {/* Map Navigation */} 
       <a href="#" id="scrollEnabling" title="Enable or disable scrolling on map">Enable Scrolling</a>

@@ -55,7 +55,16 @@
 /* ---------------------------------- */
 /* General Styles
 ------------------------------------- */
+.formError{
+	margin-top: -15px;
+	margin-bottom: 10px;
+	color: crimson;
+}
+.alertText{
+	font-weight: bolder;
+	font-size: 18px;
 
+}
 #top-bar {
 	background-color: #00a8d4;
 	color: #fff;

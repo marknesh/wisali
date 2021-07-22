@@ -1,10 +1,12 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import { useAuth } from '../context/AuthContext'
 import Footer from './Footer'
 
 function Layout({children}) {
+    const {user}=useAuth()
     return (
-        <div>
+        <div style={{marginTop:user && "88px"}}>
                  {/* <Helmet>
          
            

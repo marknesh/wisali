@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { createContext } from "react";
 import { auth } from "../firebase";
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { useRef } from "react";
+
 
 
 const AuthContext=createContext()
@@ -17,13 +17,19 @@ export function AuthProvider({children}){
     const [user, loading] = useAuthState(auth);
     
 
+    function signup(email,password){
 
+    
+        return auth.createUserWithEmailAndPassword(email,password)
+    
+    }
 
 
   
 
     const value={
-        user
+        user,
+        signup
     }
 
 

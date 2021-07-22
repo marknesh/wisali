@@ -31,8 +31,9 @@
                             $icon.removeClass("is-active");
                         });
                     });
+                     $(".mm-next").addClass("mm-fullsubopen");
                 }
-                $(".mm-next").addClass("mm-fullsubopen");
+               
             }
             mmenuInit();
             $(window).resize(function() {
@@ -619,6 +620,13 @@
             $(".utf-popup-tab-content-item").hide();
             $("#register.utf-popup-tab-content-item").show();
             $("body").find('.utf-popup-tabs-nav-item a[href="#register"]').parent("li").click();
+        });
+        
+        $('.login-tab').on('click', function(event) {
+            event.preventDefault();
+            $(".utf-popup-tab-content-item").hide();
+            $("#login.utf-popup-tab-content-item").show();
+            $("body").find('.utf-popup-tabs-nav-item a[href="#login"]').parent("li").click();
         });
 
         $('.utf-popup-tabs-nav-item').each(function() {

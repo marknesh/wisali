@@ -40,7 +40,7 @@ function ForgotPassword() {
               </div>
               <input type="submit" className="button full-width border margin-top-10" name="Send Recovery Email" defaultValue="Send Recovery Email" />				
               <div className="forget-text margin-top-15">
-                <span>Forget It, <a href="javascript:void(0);">Send me Back</a> to The Sign In.</span> 
+                <span>Forget It, <a href="/login">Send me Back</a> to The Sign In.</span> 
               </div>
             </form>
           </div>

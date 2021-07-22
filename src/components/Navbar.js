@@ -392,7 +392,7 @@ emailRef = (element) => {
 
 
 signOutRef = (element) => {
-  if(element){
+  if(element && user){
     element.querySelector('.sign-out').onclick = () => {
       auth.signOut().then(res=>{
         window.location.href="/"
@@ -419,7 +419,7 @@ signOutRef = (element) => {
   
 
 
-<script src={`http://maps.google.com/maps/api/js?key=${apiKey}&sensor=false&amp;language=en`}></script> 
+<script src={`http://maps.google.com/maps/api/js?sensor=false&amp;language=en`}></script> 
 
 <script src="/scripts/infobox.min.js"></script> 
 <script src="/scripts/markerclusterer.js"></script> 
@@ -451,10 +451,10 @@ signOutRef = (element) => {
   </div>
 </div>
 
-{user &&
 
 
-  <header id="header-container" class="fullwidth" style={{position:"fixed",zIndex:200,top:0,left:0,right:0,backgroundColor:"white"}}> 
+
+  <header id="header-container" class="fullwidth"  > 
 
   <div id="header">
     <div class="container"> 
@@ -479,7 +479,6 @@ signOutRef = (element) => {
                               
               </ul>
          </li>
-
     <li><a href="#">Dashboard</a>
               <ul>
                 <li><a href="/my-profile">My Profile</a></li>
@@ -488,6 +487,7 @@ signOutRef = (element) => {
                 <li><a href="/change-password">Change Password</a></li>
               </ul>
            </li>
+
 
             <li><a href="#">Pages</a>
               <ul>
@@ -505,7 +505,8 @@ signOutRef = (element) => {
                 </li>
 
                 <li><a href="/about">About</a></li>
-            
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>            
         <li><a href="/pricing-tables">Pricing Plan</a></li>
         <li><a href="/compare-properties">Compare Properties</a></li>
 
@@ -535,10 +536,10 @@ signOutRef = (element) => {
 
 </header>
 
-}
 
 
 
+{/* 
 {!user &&
 
 
@@ -615,7 +616,7 @@ signOutRef = (element) => {
 </header>
 
 
-}
+} */}
 <div className="clearfix" />
 
 {/* modal */}

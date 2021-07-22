@@ -6,7 +6,7 @@ import Footer from './Footer'
 function Layout({children}) {
     const {user}=useAuth()
     return (
-        <div style={{marginTop:user && "88px"}}>
+        <div>
                  {/* <Helmet>
          
            

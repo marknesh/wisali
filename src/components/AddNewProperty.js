@@ -66,7 +66,7 @@ const NINE=12345;
             <div className="content with-padding">             
               <div className="col-md-12">
                 <h5>Property Title</h5>
-                <input className="search-field" placeholder="Property Title" type="text" defaultValue />				  
+                <input className="search-field" placeholder="Property Title" type="text" />				  
               </div>
               <div className="col-md-6">
                 <h5>Status</h5>
@@ -153,7 +153,7 @@ const NINE=12345;
             <div className="content with-padding">             
               <div className="col-md-12">
                 <h5>Property Description</h5>
-                <textarea name="summary" cols={20} rows={2} id="summary" defaultValue={""} />
+                <textarea name="summary" cols={20} rows={2} id="summary"  />
               </div>
               <div className="col-md-4">
                 <h5>Building Age</h5>

@@ -36,11 +36,11 @@ function ForgotPassword() {
             </div>
             <form method="post" className="login">
               <div className="form-row form-row-wide">
-                <input type="text" className="input-text" name="email" id="email" placeholder="Email Address" defaultValue />
+                <input type="text" className="input-text" name="email" id="email" placeholder="Email Address"  />
               </div>
               <input type="submit" className="button full-width border margin-top-10" name="Send Recovery Email" defaultValue="Send Recovery Email" />				
               <div className="forget-text margin-top-15">
-                <span>Forget It, <a href="javascript:void(0);">Send me Back</a> to The Sign In.</span> 
+                <span>Forget It, <a href="/login">Send me Back</a> to The Sign In.</span> 
               </div>
             </form>
           </div>

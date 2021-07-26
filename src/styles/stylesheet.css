@@ -55,13 +55,27 @@
 /* ---------------------------------- */
 /* General Styles
 ------------------------------------- */
+.formError{
+	margin-top: -15px;
+	margin-bottom: 10px;
+	color: crimson;
+}
+.alertText{
+	font-weight: bolder;
+	font-size: 18px;
 
+}
 #top-bar {
 	background-color: #00a8d4;
 	color: #fff;
 	padding: 0;
 	position: relative;
 	z-index: 1001;
+}
+
+.changeMap{
+	z-index: 1;
+	margin-top: 84px;
 }
 ul.top-bar-menu {
 	margin: 0;

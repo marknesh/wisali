@@ -26,10 +26,15 @@ import ForgotPassword from './components/ForgotPassword';
 import AllCategories from './components/AllCategories';
 import Payment from './components/Payment';
 import BlogFullWidth from './components/BlogFullWidth';
+import { AuthProvider } from './context/AuthContext';
+import { ToastContainer } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 ReactDOM.render(
  
-    
+    <AuthProvider>
+      <ToastContainer/>
     <Router>
       <Navbar/>
     <Switch>
@@ -58,13 +63,16 @@ ReactDOM.render(
 </Switch>
    
     </Router>
+
+    </AuthProvider>
  ,
 
   document.getElementById('wrapper'),
 );
 ReactDOM.render(
- 
+
     <App />
+  
 ,
   document.getElementById('root')
 );

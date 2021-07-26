@@ -36,7 +36,7 @@ function Login() {
             </div>
             <form method="post" className="login">
               <div className="form-row form-row-wide">
-                <input type="text" className="input-text" name="email" id="email" placeholder="Email Address" defaultValue />
+                <input type="text" className="input-text" name="email" id="email" placeholder="Email Address"  />
               </div>
               <div className="form-row form-row-wide">
                 <input className="input-text" type="password" name="password" placeholder="Password" id="password" />

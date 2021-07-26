@@ -56,7 +56,7 @@ function BlogDetail() {
               </div>
               <div className="utf-search-blog-input">
                 <div className="input">
-                  <input className="search-field" type="text" placeholder="Type and hit enter" defaultValue />
+                  <input className="search-field" type="text" placeholder="Type and hit enter" />
                 </div>
               </div>
               <div className="clearfix" />
@@ -294,19 +294,19 @@ function BlogDetail() {
             <fieldset>
               <div className="row">
                 <div className="col-md-6">
-                  <input type="text" placeholder="Name *" defaultValue />
+                  <input type="text" placeholder="Name *"  />
                 </div>
                 <div className="col-md-6">
-                  <input type="text" placeholder="Email Address *" defaultValue />
+                  <input type="text" placeholder="Email Address *" />
                 </div>
                 <div className="col-md-6">
-                  <input type="text" placeholder="Phone Number *" defaultValue />
+                  <input type="text" placeholder="Phone Number *" />
                 </div>
                 <div className="col-md-6">
-                  <input type="text" placeholder="Subject" defaultValue />
+                  <input type="text" placeholder="Subject" />
                 </div>
                 <div className="col-md-12">
-                  <textarea cols={30} placeholder="Comment..." rows={2} defaultValue={""} />
+                  <textarea cols={30} placeholder="Comment..." rows={2} />
                 </div>
               </div>
             </fieldset>

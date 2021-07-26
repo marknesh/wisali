@@ -43,13 +43,13 @@ function Register() {
                 </select>
               </div>   
               <div className="form-row form-row-wide">
-                <input type="text" className="input-text" name="username" id="username" placeholder="Firstname" defaultValue />
+                <input type="text" className="input-text" name="username" id="username" placeholder="Firstname" />
               </div>  
               <div className="form-row form-row-wide">
-                <input type="text" className="input-text" name="username" id="username" placeholder="Second Name" defaultValue />
+                <input type="text" className="input-text" name="username" id="username" placeholder="Second Name" />
               </div>
               <div className="form-row form-row-wide">
-                <input type="text" className="input-text" name="email" id="email" placeholder="Email Address" defaultValue />
+                <input type="text" className="input-text" name="email" id="email" placeholder="Email Address"  />
               </div>
               <div className="form-row form-row-wide">
                 <input className="input-text" type="password" name="password" placeholder="Password" id="password" />

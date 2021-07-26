@@ -66,11 +66,11 @@ function Contact() {
                 <input name="name" type="text" placeholder="Subject" required />                
               </div>
               <div className="col-md-12">
-                <textarea name="comments" cols={40} rows={3} placeholder="Message..." spellCheck="true" required defaultValue={""} />
+                <textarea name="comments" cols={40} rows={3} placeholder="Message..." spellCheck="true" required  />
               </div>
             </div>
             <div className="utf-centered-button margin-bottom-10">	
-              <input type="submit" className="submit button" id="submit" defaultValue="Submit Message" />
+              <input type="submit" className="submit button" id="submit"  />
             </div>
           </form>
         </div>	  

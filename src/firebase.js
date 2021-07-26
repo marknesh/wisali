@@ -1,5 +1,6 @@
 import firebase from "firebase/app"
 import "firebase/auth"
+import "firebase/firestore"
 
 
 
@@ -18,6 +19,9 @@ const app=!firebase.apps.length?firebase.initializeApp(config):firebase.app()
 const auth=app.auth()
 const provider=new firebase.auth.GoogleAuthProvider()
 const facebookProvider = new firebase.auth.FacebookAuthProvider();
+const db=firebase.firestore()
+provider.addScope('profile')
+provider.addScope('email');
 facebookProvider.addScope('public_profile');
 
-export {auth,provider,facebookProvider}
+export {auth,provider,facebookProvider,db}

@@ -5,7 +5,7 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 import { Helmet } from 'react-helmet'
 import { toast } from 'react-toastify'
 import { useAuth } from '../context/AuthContext'
-import { auth, facebookProvider, provider } from '../firebase'
+import { auth, db, facebookProvider, provider } from '../firebase'
 import Login from './Login'
 import firebase from 'firebase/app'
 
@@ -69,11 +69,11 @@ signingRef = (element) => {
         }
 
         if(!remember){
-          auth.setPersistence(firebase.auth.Auth.Persistence.SESSION)
+         await  auth.setPersistence(firebase.auth.Auth.Persistence.SESSION)
 
         }
         if(remember){
-          auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+         await  auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL)
 
         }
 
@@ -117,7 +117,7 @@ return
 
     }
 
-
+  
      
     toast.error(<span className="alertText">An error occurred. Please try again later!</span>, {
       position: "top-center",
@@ -196,8 +196,18 @@ if(email && password && confirmPassword && firstName && secondName && agree && (
       try{
         
      await signup(email,password)
-     .then(()=>{
-       window.location.href="/"
+   
+     .then((user)=>{
+       db.collection("users").doc(user.uid).set({
+         firstname:firstName,
+         secondname:secondName
+       },{merge:true}).then(()=>{
+        window.location.href="/"
+
+       })
+
+
+      
      })
      .catch((err)=>{
     
@@ -221,7 +231,8 @@ if(email && password && confirmPassword && firstName && secondName && agree && (
             });
           return;
           }
-      
+
+       
       toast.error(<span className="alertText">An error occurred. Please try again later!</span>, {
         position: "top-center",
         autoClose: 5000,
@@ -664,13 +675,13 @@ signOutRef = (element) => {
             <span>Do You Have an Account? <a href="#" className="login-tab">Log in!</a></span> 
           </div>        
           <form  id="utf-register-account-form" ref={emailRef}>
-            <div className="utf-no-border margin-bottom-20">
+            {/* <div className="utf-no-border margin-bottom-20">
               <select className="utf-chosen-select-single-item utf-with-border" title="Choose plan">
                 <option>Private</option>
                 <option>Business</option>
                 <option>Platinum</option>				
               </select>
-            </div>
+            </div> */}
             <div className="utf-no-border" >
               <input type="text" name="secondname"   className="firstName" id="name" placeholder="First Name" required  />
               {firstNameError &&  <div className="formError">{firstNameError}</div>}

@@ -55,6 +55,10 @@
 /* ---------------------------------- */
 /* General Styles
 ------------------------------------- */
+.markcheck{
+	background-color: #00A8D4!important;
+	border: none!important;
+}
 .formError{
 	margin-top: -15px;
 	margin-bottom: 10px;

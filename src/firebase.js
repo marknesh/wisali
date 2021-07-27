@@ -19,9 +19,10 @@ const app=!firebase.apps.length?firebase.initializeApp(config):firebase.app()
 const auth=app.auth()
 const provider=new firebase.auth.GoogleAuthProvider()
 const facebookProvider = new firebase.auth.FacebookAuthProvider();
+const twitterProvider = new firebase.auth.TwitterAuthProvider();
 const db=firebase.firestore()
 provider.addScope('profile')
 provider.addScope('email');
 facebookProvider.addScope('public_profile');
 
-export {auth,provider,facebookProvider,db}
+export {auth,provider,facebookProvider,db,twitterProvider}

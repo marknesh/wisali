@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from './Layout'
 import { useForm } from "react-hook-form";
 import { useState } from 'react';
-import { auth, facebookProvider, provider } from '../firebase';
+import { auth, facebookProvider, provider, twitterProvider } from '../firebase';
 import firebase from "firebase/app"
 import { useAuth } from '../context/AuthContext';
 import { toast } from 'react-toastify';
@@ -35,6 +35,26 @@ function Login() {
 
   const handleGoogle=()=>{
     auth.signInWithPopup(provider).then(res=>{
+      window.location.href="/"
+
+
+     }).catch(err=>{
+
+       toast.warn(<span className="alertText">An error occurred. Please try again!</span>, {
+         position: "top-center",
+         autoClose: 5000,
+         hideProgressBar: false,
+         closeOnClick: true,
+         pauseOnHover: true,
+         draggable: true,
+         progress: undefined,
+         });
+     })
+
+  }
+
+  const handleTwitter=()=>{
+    auth.signInWithPopup(twitterProvider).then(res=>{
       window.location.href="/"
 
 
@@ -181,7 +201,7 @@ return
             <div className="utf-social-login-buttons-block">
                 <button onClick={handleFacebook} className="button social-login via-twitter"><i className="icon-brand-facebook-f" /> Facebook</button>
                 <button   onClick={handleGoogle} className="button social-login via-gplus"><i className="icon-brand-google-plus-g" /> Google+</button>
-                <button className="button social-login via-facebook"><i className="icon-brand-twitter" /> Twitter</button>
+                <button onClick={handleTwitter} className="button social-login via-facebook"><i className="icon-brand-twitter" /> Twitter</button>
               </div>	
           </div>
         </div>

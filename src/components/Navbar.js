@@ -5,7 +5,7 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 import { Helmet } from 'react-helmet'
 import { toast } from 'react-toastify'
 import { useAuth } from '../context/AuthContext'
-import { auth, db, facebookProvider, provider } from '../firebase'
+import { auth, db, facebookProvider, provider, twitterProvider } from '../firebase'
 import Login from './Login'
 import firebase from 'firebase/app'
 
@@ -379,6 +379,24 @@ emailRef = (element) => {
        }
        element.querySelector('.facebook-login').onclick = () => {
         auth.signInWithPopup(facebookProvider).then(res=>{
+         window.location.href="/"
+   
+   
+        }).catch(err=>{
+
+          toast.warn(<span className="alertText">An error occurred. Please try siging again!</span>, {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            });
+        })
+       }
+       element.querySelector('.twitter-login').onclick = () => {
+        auth.signInWithPopup(twitterProvider).then(res=>{
          window.location.href="/"
    
    

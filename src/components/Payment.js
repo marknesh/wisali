@@ -1,9 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Layout from './Layout'
 
 function Payment() {
     return (
         <Layout>
+          <Helmet>
+          <link rel="stylesheet" href="styles/payment.css"/>
+          </Helmet>
            
   
   <div class="parallax titlebar" data-background="images/listings-parallax.jpg" data-color="rgba(48, 48, 48, 1)" data-color-opacity="0.8" data-img-width="800" data-img-height="505">

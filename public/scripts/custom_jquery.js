@@ -1,8 +1,8 @@
-
+(function($) {
+    "use strict";
     $(document).ready(function() {
         $(function() {
             function mmenuInit() {
-             
                 var wi = $(window).width();
                 if (wi <= '992') {
                     $('#footer').removeClass("sticky-footer");
@@ -31,9 +31,8 @@
                             $icon.removeClass("is-active");
                         });
                     });
-                     $(".mm-next").addClass("mm-fullsubopen");
                 }
-               
+                $(".mm-next").addClass("mm-fullsubopen");
             }
             mmenuInit();
             $(window).resize(function() {
@@ -948,6 +947,7 @@
             return (input - 0) == input && input.length > 0;
         }
     });
+})(this.jQuery);
 
 (function($) {
     $.fn.footerReveal = function(options) {

@@ -246,7 +246,7 @@ function Home() {
           {/* Carousel */}
           <div className="col-md-12">
             {isLoading ? (
-              <p>Loading ...</p>
+              <p></p>
             ) : (
               <div className="carousel">
                 {/* Listing Item */}

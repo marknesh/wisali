@@ -8,15 +8,17 @@ import SignInUpModal from "./SignInUpModal";
 function Navbar() {
   const { user } = useAuth();
   let signOutRef = useRef(null);
+
   signOutRef = (element) => {
     if (element && user) {
-      element.querySelector(".sign-out").onclick = () => {
+      element.onclick = () => {
         auth.signOut().then((res) => {
           window.location.href = "/";
         });
       };
     }
   };
+
   return (
     <div>
       <Helmet>
@@ -206,7 +208,7 @@ function Navbar() {
             </div>
 
             <div class="right-side">
-              <div class="header-widget" ref={signOutRef}>
+              <div class="header-widget">
                 {!user && (
                   <a
                     href="#utf-signin-dialog-block"
@@ -219,6 +221,7 @@ function Navbar() {
                   <a
                     class="popup-with-zoom-anim log-in-button sign-in sign-out"
                     style={{ cursor: "pointer" }}
+                    ref={signOutRef}
                   >
                     <i class="icon-line-awesome-user"></i> <span>Sign Out</span>
                   </a>

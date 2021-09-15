@@ -20,6 +20,17 @@ function Home() {
     });
     return usersData;
   };
+  const getUserInfo = async (id) => {
+    const usersInfo = [];
+    await dbCollection
+      .doc(id)
+      .get()
+      .then(async (snapshot) => {
+        //console.log(snapshot);
+        //snapshot.forEach((doc) => usersInfo.push({ ...doc.data() }));
+      });
+    return usersInfo;
+  };
   const getProperties = async (usersData) => {
     const propertiesData = [];
     await Promise.all(
@@ -84,6 +95,49 @@ function Home() {
     );
     return featuredData;
   };
+  const getForSalePropertiesData = async (propertiesData) => {
+    const forSaleData = [];
+    var counter = 1;
+    await Promise.all(
+      propertiesData.map(async (data) => {
+        //console.log("Data:", data);
+        if (data != []) {
+          var imageUrl = "";
+          await storage
+            .ref(`/${data.id}/properties/${data.propertyTitle}/image1`)
+            .getDownloadURL()
+            .then(
+              (url) => {
+                imageUrl = url;
+              },
+              (error) => {
+                console.log(error);
+              }
+            );
+          const profileInfo = await getUserInfo(data.id);
+          console.log("Profile Info:", profileInfo);
+          const forSaleProperty = {
+            id: counter,
+            propertyAgent: data.id,
+            propertyMainImageUrl: imageUrl,
+            propertyTitle: data.propertyTitle,
+            propertyStatus: data.propertyStatus,
+            propertyType: data.propertyType,
+            propertyPrice: data.propertyPrice,
+            propertyArea: data.propertyArea,
+            propertyRooms: data.propertyRooms,
+            propertyBedRooms: data.propertyBedRooms,
+            propertyBathRooms: data.propertyBathRooms,
+            propertyGarage: data.propertyGarage,
+            propertyGarageSize: data.propertyGarageSize,
+          };
+          forSaleData.push(forSaleProperty);
+        }
+        counter++;
+      })
+    );
+    return forSaleData;
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -95,6 +149,8 @@ function Home() {
       const fPData = await getFeaturedPropertiesData(propertiesData);
       console.log("featuredPropertiesData->", fPData);
       setFeaturedPropertiesData(fPData);
+      const forSaleData = await getForSalePropertiesData(propertiesData);
+      console.log("forSaleData->", forSaleData);
       setIsLoading(false);
     };
     fetchData();
@@ -269,7 +325,7 @@ function Home() {
                           </span>
                         </div>
                         <img
-                          style={{ "min-height": 287 }}
+                          style={{ minHeight: 287 }}
                           src={item.propertyMainImageUrl}
                           alt=""
                         />

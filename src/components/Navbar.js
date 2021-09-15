@@ -218,18 +218,21 @@ function Navbar() {
                   </a>
                 )}
                 {user && (
-                  <a
-                    class="popup-with-zoom-anim log-in-button sign-in sign-out"
-                    style={{ cursor: "pointer" }}
-                    ref={signOutRef}
-                  >
-                    <i class="icon-line-awesome-user"></i> <span>Sign Out</span>
-                  </a>
+                  <div>
+                    <a
+                      class="popup-with-zoom-anim log-in-button sign-in sign-out"
+                      style={{ cursor: "pointer" }}
+                      ref={signOutRef}
+                    >
+                      <i class="icon-line-awesome-user"></i>{" "}
+                      <span>Sign Out</span>
+                    </a>
+                    <a href="/add-new-property" class="button border">
+                      <i class="icon-feather-plus-circle"></i>{" "}
+                      <span>Create Property</span>
+                    </a>
+                  </div>
                 )}
-                <a href="/add-new-property" class="button border">
-                  <i class="icon-feather-plus-circle"></i>{" "}
-                  <span>Create Property</span>
-                </a>
               </div>
             </div>
           </div>

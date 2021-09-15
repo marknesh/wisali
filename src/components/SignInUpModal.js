@@ -46,7 +46,6 @@ function SignInUpModal() {
   const apiKey = process.env.REACT_APP_MAP_API_KEY;
 
   let buttonref = useRef(null);
-  let signOutRef = useRef(null);
 
   const { user, signup, login } = useAuth();
   signingRef = (element) => {
@@ -108,7 +107,7 @@ function SignInUpModal() {
                   return;
                 }
 
-                toast.error(
+                /*toast.error(
                   <span className="alertText">
                     An error occurred. Please try again later!
                   </span>,
@@ -121,7 +120,7 @@ function SignInUpModal() {
                     draggable: true,
                     progress: undefined,
                   }
-                );
+                );*/
               });
           } catch (err) {
             toast.error(
@@ -141,6 +140,17 @@ function SignInUpModal() {
           }
         }
       };
+    }
+  };
+  const checkPassword = (data) => {
+    var expr =
+      /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
+    if (expr.test(data)) {
+      //console.log("Correct, try another...");
+      return true;
+    } else {
+      //console.log("Wrong...!");
+      return false;
     }
   };
 
@@ -166,9 +176,15 @@ function SignInUpModal() {
         if (!agree) {
           setAgreeError("please agree to continue");
         }
-        if (password !== confirmPassword) {
-          setConfirmPasswordError("Passwords do not match");
+        if (!checkPassword(password)) {
+          setPasswordError(
+            "Allowed Password: [8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character]"
+          );
         }
+        if (password !== confirmPassword) {
+          setConfirmPasswordError("passwords do not match");
+        }
+
         if (
           email &&
           password &&
@@ -221,7 +237,7 @@ function SignInUpModal() {
                   return;
                 }
 
-                toast.error(
+                /*toast.error(
                   <span className="alertText">
                     An error occurred. Please try again later!
                   </span>,
@@ -234,7 +250,7 @@ function SignInUpModal() {
                     draggable: true,
                     progress: undefined,
                   }
-                );
+                );*/
               });
           } catch (e) {
             toast.error(
@@ -382,16 +398,6 @@ function SignInUpModal() {
               }
             );
           });
-      };
-    }
-  };
-
-  signOutRef = (element) => {
-    if (element && user) {
-      element.querySelector(".sign-out").onclick = () => {
-        auth.signOut().then((res) => {
-          window.location.href = "/";
-        });
       };
     }
   };

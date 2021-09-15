@@ -102,10 +102,17 @@ const FileUpload = ({
                     <span>{file.name}</span>
                     <aside>
                       <span>{convertBytesToKB(file.size)} kb</span>
-                      <RemoveFileIcon
+                      <a
+                        onClick={() => removeFile(fileName)}
+                        style={{ color: "red", cursor: "pointer" }}
+                        on
+                      >
+                        X
+                      </a>
+                      {/* <RemoveFileIcon
                         className="fas fa-trash-alt"
                         onClick={() => removeFile(fileName)}
-                      />
+                      /> */}
                     </aside>
                   </FileMetaData>
                 </div>

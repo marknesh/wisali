@@ -11,7 +11,11 @@ const db = firebase.firestore();
 function AddNewProperty() {
   const NINE = 12345;
   const { user } = useAuth();
-
+  firebase.auth().onAuthStateChanged((user) => {
+    if (!user) {
+      window.location.href = "/";
+    }
+  });
   const [profileFile, setProfileFile] = useState(null);
   const [profileUrl, setProfileURL] = useState("images/agent-02.jpg");
   const [profileUpload, setProfileUpload] = useState(false);
@@ -79,7 +83,7 @@ function AddNewProperty() {
           setProfileURL(url);
           await dbCollection
             .doc(user.uid)
-            .set({
+            .update({
               profileImage: `/${user.uid}/profileImage/${profileFile.name}`,
             })
             .then(function () {
@@ -354,6 +358,25 @@ function AddNewProperty() {
             console.log("Saving Property");
             console.log(newPropertyImages.propertyImages);
             const images = newPropertyImages.propertyImages;
+
+            if (images.length > 10) {
+              toast.error(
+                <span className="alertText">
+                  Only Ten(10) property images are allowed!
+                </span>,
+                {
+                  position: "top-center",
+                  autoClose: 15000,
+                  hideProgressBar: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                  progress: undefined,
+                }
+              );
+              return;
+            }
+
             const promises = [];
             var totalProgress = 0;
             var counter = 1;
@@ -422,6 +445,18 @@ function AddNewProperty() {
                 { merge: true }
               )
               .then(() => {
+                toast.success(
+                  <span className="alertText">Property added!</span>,
+                  {
+                    position: "top-center",
+                    autoClose: 15000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                  }
+                );
                 window.location.href = "/add-new-property";
               });
             setUploadProgress2(0);
